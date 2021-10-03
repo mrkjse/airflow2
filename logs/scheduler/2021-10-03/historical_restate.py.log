@@ -1,0 +1,739 @@
+[2021-10-03 06:41:22,273] {processor.py:162} INFO - Started process (PID=2135) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:41:22,276] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:41:22,279] {logging_mixin.py:109} INFO - [2021-10-03 06:41:22,279] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:41:22,399] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:41:22,433] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:41:22,449] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:41:22,755] {logging_mixin.py:109} INFO - [2021-10-03 06:41:22,755] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:41:22,797] {logging_mixin.py:109} INFO - [2021-10-03 06:41:22,797] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 06:41:22,843] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.577 seconds
+[2021-10-03 06:41:53,406] {processor.py:162} INFO - Started process (PID=2189) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:41:53,418] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:41:53,429] {logging_mixin.py:109} INFO - [2021-10-03 06:41:53,429] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:41:53,503] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:41:53,521] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:41:53,534] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:41:53,551] {logging_mixin.py:109} INFO - [2021-10-03 06:41:53,551] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:41:53,568] {logging_mixin.py:109} INFO - [2021-10-03 06:41:53,567] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 06:41:53,586] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.184 seconds
+[2021-10-03 06:42:13,285] {processor.py:162} INFO - Started process (PID=2232) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:42:13,290] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:42:13,293] {logging_mixin.py:109} INFO - [2021-10-03 06:42:13,293] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:42:13,613] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:42:13,686] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:42:13,731] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:42:13,746] {logging_mixin.py:109} INFO - [2021-10-03 06:42:13,746] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:42:13,822] {logging_mixin.py:109} INFO - [2021-10-03 06:42:13,822] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 06:42:13,867] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.613 seconds
+[2021-10-03 06:42:42,875] {processor.py:162} INFO - Started process (PID=2288) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:42:42,878] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:42:42,882] {logging_mixin.py:109} INFO - [2021-10-03 06:42:42,881] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:42:43,009] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:42:43,035] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:42:43,045] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:42:47,776] {logging_mixin.py:109} INFO - [2021-10-03 06:42:47,774] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:42:47,795] {logging_mixin.py:109} INFO - [2021-10-03 06:42:47,793] {dag.py:1853} INFO - Creating ORM DAG for dag2
+[2021-10-03 06:42:47,805] {logging_mixin.py:109} INFO - [2021-10-03 06:42:47,805] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-11-01T00:00:00+00:00
+[2021-10-03 06:42:47,836] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 4.965 seconds
+[2021-10-03 06:43:18,385] {processor.py:162} INFO - Started process (PID=2356) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:18,394] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:43:18,396] {logging_mixin.py:109} INFO - [2021-10-03 06:43:18,395] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:18,529] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:43:18,566] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:43:18,576] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:18,822] {logging_mixin.py:109} INFO - [2021-10-03 06:43:18,822] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:43:18,838] {logging_mixin.py:109} INFO - [2021-10-03 06:43:18,838] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:43:18,855] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.483 seconds
+[2021-10-03 06:43:49,053] {processor.py:162} INFO - Started process (PID=2423) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:49,064] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:43:49,068] {logging_mixin.py:109} INFO - [2021-10-03 06:43:49,067] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:49,263] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:43:49,299] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:43:49,324] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:49,358] {logging_mixin.py:109} INFO - [2021-10-03 06:43:49,358] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:43:49,397] {logging_mixin.py:109} INFO - [2021-10-03 06:43:49,397] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:43:49,418] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.378 seconds
+[2021-10-03 06:43:51,841] {processor.py:162} INFO - Started process (PID=2427) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:51,843] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:43:51,847] {logging_mixin.py:109} INFO - [2021-10-03 06:43:51,847] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:51,948] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:43:51,979] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:43:51,998] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:43:52,224] {logging_mixin.py:109} INFO - [2021-10-03 06:43:52,224] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:43:52,242] {logging_mixin.py:109} INFO - [2021-10-03 06:43:52,242] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:43:52,278] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.443 seconds
+[2021-10-03 06:44:23,181] {processor.py:162} INFO - Started process (PID=2491) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:23,191] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:44:23,193] {logging_mixin.py:109} INFO - [2021-10-03 06:44:23,193] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:23,367] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:44:23,410] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:44:23,421] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:23,443] {logging_mixin.py:109} INFO - [2021-10-03 06:44:23,443] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:44:23,460] {logging_mixin.py:109} INFO - [2021-10-03 06:44:23,460] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:44:23,474] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.304 seconds
+[2021-10-03 06:44:24,434] {processor.py:162} INFO - Started process (PID=2493) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:24,442] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:44:24,448] {logging_mixin.py:109} INFO - [2021-10-03 06:44:24,447] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:24,587] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:44:24,626] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:44:24,644] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:24,940] {logging_mixin.py:109} INFO - [2021-10-03 06:44:24,940] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:44:24,963] {logging_mixin.py:109} INFO - [2021-10-03 06:44:24,963] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:44:24,995] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.571 seconds
+[2021-10-03 06:44:55,802] {processor.py:162} INFO - Started process (PID=2549) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:55,809] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:44:55,824] {logging_mixin.py:109} INFO - [2021-10-03 06:44:55,824] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:56,124] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:44:56,194] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:44:56,234] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:44:56,310] {logging_mixin.py:109} INFO - [2021-10-03 06:44:56,310] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:44:56,355] {logging_mixin.py:109} INFO - [2021-10-03 06:44:56,355] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:44:56,388] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.604 seconds
+[2021-10-03 06:45:26,723] {processor.py:162} INFO - Started process (PID=2605) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:45:26,738] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:45:26,742] {logging_mixin.py:109} INFO - [2021-10-03 06:45:26,742] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:45:28,448] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:45:28,633] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:45:28,696] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:45:28,813] {logging_mixin.py:109} INFO - [2021-10-03 06:45:28,803] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:45:28,884] {logging_mixin.py:109} INFO - [2021-10-03 06:45:28,883] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:45:28,944] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 2.265 seconds
+[2021-10-03 06:45:59,169] {processor.py:162} INFO - Started process (PID=2677) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:45:59,177] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:45:59,180] {logging_mixin.py:109} INFO - [2021-10-03 06:45:59,180] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:45:59,273] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:45:59,298] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:45:59,312] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:45:59,329] {logging_mixin.py:109} INFO - [2021-10-03 06:45:59,329] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:45:59,345] {logging_mixin.py:109} INFO - [2021-10-03 06:45:59,345] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:45:59,370] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.210 seconds
+[2021-10-03 06:46:29,453] {processor.py:162} INFO - Started process (PID=2732) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:46:29,455] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:46:29,457] {logging_mixin.py:109} INFO - [2021-10-03 06:46:29,457] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:46:29,530] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:46:29,553] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:46:29,568] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:46:29,586] {logging_mixin.py:109} INFO - [2021-10-03 06:46:29,585] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:46:29,606] {logging_mixin.py:109} INFO - [2021-10-03 06:46:29,606] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:46:29,628] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.180 seconds
+[2021-10-03 06:46:59,664] {processor.py:162} INFO - Started process (PID=2785) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:46:59,668] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:46:59,670] {logging_mixin.py:109} INFO - [2021-10-03 06:46:59,670] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:46:59,742] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:46:59,767] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:46:59,779] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:46:59,795] {logging_mixin.py:109} INFO - [2021-10-03 06:46:59,795] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:46:59,814] {logging_mixin.py:109} INFO - [2021-10-03 06:46:59,814] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:46:59,832] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.172 seconds
+[2021-10-03 06:47:29,936] {processor.py:162} INFO - Started process (PID=2840) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:47:29,940] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:47:29,942] {logging_mixin.py:109} INFO - [2021-10-03 06:47:29,942] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:47:30,051] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:47:30,080] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:47:30,090] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:47:30,106] {logging_mixin.py:109} INFO - [2021-10-03 06:47:30,105] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:47:30,122] {logging_mixin.py:109} INFO - [2021-10-03 06:47:30,121] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:47:30,134] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.203 seconds
+[2021-10-03 06:48:00,541] {processor.py:162} INFO - Started process (PID=2904) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:48:00,551] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:48:00,553] {logging_mixin.py:109} INFO - [2021-10-03 06:48:00,553] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:48:00,649] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:48:00,676] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:48:00,688] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:48:00,715] {logging_mixin.py:109} INFO - [2021-10-03 06:48:00,715] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:48:00,749] {logging_mixin.py:109} INFO - [2021-10-03 06:48:00,749] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:48:00,773] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.238 seconds
+[2021-10-03 06:48:30,869] {processor.py:162} INFO - Started process (PID=2961) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:48:30,873] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:48:30,875] {logging_mixin.py:109} INFO - [2021-10-03 06:48:30,875] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:48:30,942] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:48:30,963] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:48:30,980] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:48:30,997] {logging_mixin.py:109} INFO - [2021-10-03 06:48:30,997] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:48:31,017] {logging_mixin.py:109} INFO - [2021-10-03 06:48:31,017] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:48:31,033] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.168 seconds
+[2021-10-03 06:49:01,435] {processor.py:162} INFO - Started process (PID=3030) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:49:01,466] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:49:01,470] {logging_mixin.py:109} INFO - [2021-10-03 06:49:01,470] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:49:01,545] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:49:01,596] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:49:01,613] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:49:01,632] {logging_mixin.py:109} INFO - [2021-10-03 06:49:01,631] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:49:01,681] {logging_mixin.py:109} INFO - [2021-10-03 06:49:01,681] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:49:01,700] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.269 seconds
+[2021-10-03 06:49:32,487] {processor.py:162} INFO - Started process (PID=3084) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:49:32,489] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:49:32,491] {logging_mixin.py:109} INFO - [2021-10-03 06:49:32,491] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:49:32,608] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:49:32,647] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:49:32,659] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:49:32,674] {logging_mixin.py:109} INFO - [2021-10-03 06:49:32,673] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:49:32,695] {logging_mixin.py:109} INFO - [2021-10-03 06:49:32,695] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:49:32,709] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.226 seconds
+[2021-10-03 06:50:03,415] {processor.py:162} INFO - Started process (PID=3138) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:50:03,434] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:50:03,438] {logging_mixin.py:109} INFO - [2021-10-03 06:50:03,438] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:50:03,564] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:50:03,584] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:50:03,594] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:50:03,618] {logging_mixin.py:109} INFO - [2021-10-03 06:50:03,617] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:50:03,651] {logging_mixin.py:109} INFO - [2021-10-03 06:50:03,651] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:50:03,667] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.258 seconds
+[2021-10-03 06:50:33,892] {processor.py:162} INFO - Started process (PID=3202) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:50:33,895] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:50:33,898] {logging_mixin.py:109} INFO - [2021-10-03 06:50:33,898] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:50:34,001] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:50:34,040] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:50:34,066] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:50:34,100] {logging_mixin.py:109} INFO - [2021-10-03 06:50:34,100] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:50:34,133] {logging_mixin.py:109} INFO - [2021-10-03 06:50:34,133] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:50:34,150] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.262 seconds
+[2021-10-03 06:51:04,993] {processor.py:162} INFO - Started process (PID=3257) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:05,000] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:51:05,002] {logging_mixin.py:109} INFO - [2021-10-03 06:51:05,001] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:05,085] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:51:05,112] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:51:05,128] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:05,146] {logging_mixin.py:109} INFO - [2021-10-03 06:51:05,146] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:51:05,169] {logging_mixin.py:109} INFO - [2021-10-03 06:51:05,169] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:51:05,196] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.206 seconds
+[2021-10-03 06:51:35,454] {processor.py:162} INFO - Started process (PID=3322) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:35,458] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:51:35,461] {logging_mixin.py:109} INFO - [2021-10-03 06:51:35,460] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:35,599] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:51:35,629] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:51:35,638] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:35,657] {logging_mixin.py:109} INFO - [2021-10-03 06:51:35,656] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:51:35,680] {logging_mixin.py:109} INFO - [2021-10-03 06:51:35,680] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:51:35,706] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.261 seconds
+[2021-10-03 06:51:56,660] {processor.py:162} INFO - Started process (PID=3352) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:56,667] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:51:56,668] {logging_mixin.py:109} INFO - [2021-10-03 06:51:56,668] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:56,750] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:51:56,771] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:51:56,781] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:51:56,795] {logging_mixin.py:109} INFO - [2021-10-03 06:51:56,795] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:51:56,812] {logging_mixin.py:109} INFO - [2021-10-03 06:51:56,812] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:51:56,841] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.185 seconds
+[2021-10-03 06:52:27,375] {processor.py:162} INFO - Started process (PID=3421) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:52:27,389] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:52:27,398] {logging_mixin.py:109} INFO - [2021-10-03 06:52:27,397] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:52:27,570] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:52:27,600] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:52:27,614] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:52:27,635] {logging_mixin.py:109} INFO - [2021-10-03 06:52:27,635] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:52:27,660] {logging_mixin.py:109} INFO - [2021-10-03 06:52:27,660] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:52:27,708] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.346 seconds
+[2021-10-03 06:52:59,820] {processor.py:162} INFO - Started process (PID=3478) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:52:59,834] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:52:59,845] {logging_mixin.py:109} INFO - [2021-10-03 06:52:59,845] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:53:00,130] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:53:00,168] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:53:00,178] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:53:00,209] {logging_mixin.py:109} INFO - [2021-10-03 06:53:00,209] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:53:00,260] {logging_mixin.py:109} INFO - [2021-10-03 06:53:00,260] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:53:00,287] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.488 seconds
+[2021-10-03 06:53:30,753] {processor.py:162} INFO - Started process (PID=3546) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:53:30,759] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:53:30,761] {logging_mixin.py:109} INFO - [2021-10-03 06:53:30,760] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:53:30,983] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:53:31,020] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:53:31,042] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:53:31,084] {logging_mixin.py:109} INFO - [2021-10-03 06:53:31,084] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:53:31,116] {logging_mixin.py:109} INFO - [2021-10-03 06:53:31,116] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:53:31,145] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.398 seconds
+[2021-10-03 06:54:01,460] {processor.py:162} INFO - Started process (PID=3606) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:54:01,467] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:54:01,473] {logging_mixin.py:109} INFO - [2021-10-03 06:54:01,473] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:54:01,707] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:54:01,774] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:54:01,804] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:54:01,834] {logging_mixin.py:109} INFO - [2021-10-03 06:54:01,834] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:54:01,915] {logging_mixin.py:109} INFO - [2021-10-03 06:54:01,915] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:54:01,966] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.526 seconds
+[2021-10-03 06:54:32,459] {processor.py:162} INFO - Started process (PID=3661) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:54:32,466] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:54:32,469] {logging_mixin.py:109} INFO - [2021-10-03 06:54:32,469] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:54:32,603] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:54:32,629] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:54:32,640] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:54:32,656] {logging_mixin.py:109} INFO - [2021-10-03 06:54:32,656] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:54:32,675] {logging_mixin.py:109} INFO - [2021-10-03 06:54:32,675] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:54:32,705] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.258 seconds
+[2021-10-03 06:55:03,026] {processor.py:162} INFO - Started process (PID=3726) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:03,029] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:55:03,035] {logging_mixin.py:109} INFO - [2021-10-03 06:55:03,035] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:03,347] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:55:03,446] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:55:03,477] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:03,575] {logging_mixin.py:109} INFO - [2021-10-03 06:55:03,575] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:55:03,676] {logging_mixin.py:109} INFO - [2021-10-03 06:55:03,676] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:55:03,697] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.697 seconds
+[2021-10-03 06:55:14,078] {processor.py:162} INFO - Started process (PID=3742) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:14,080] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:55:14,082] {logging_mixin.py:109} INFO - [2021-10-03 06:55:14,082] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:14,261] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:55:14,298] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:55:14,323] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:14,650] {logging_mixin.py:109} INFO - [2021-10-03 06:55:14,649] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:55:14,672] {logging_mixin.py:109} INFO - [2021-10-03 06:55:14,672] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:55:14,704] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.630 seconds
+[2021-10-03 06:55:45,702] {processor.py:162} INFO - Started process (PID=3795) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:45,720] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:55:45,739] {logging_mixin.py:109} INFO - [2021-10-03 06:55:45,739] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:46,288] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:55:46,337] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:55:46,376] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:55:46,434] {logging_mixin.py:109} INFO - [2021-10-03 06:55:46,433] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:55:46,483] {logging_mixin.py:109} INFO - [2021-10-03 06:55:46,483] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:55:46,515] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.837 seconds
+[2021-10-03 06:56:16,803] {processor.py:162} INFO - Started process (PID=3851) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:56:16,813] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:56:16,818] {logging_mixin.py:109} INFO - [2021-10-03 06:56:16,818] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:56:17,050] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:56:17,097] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:56:17,121] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:56:17,198] {logging_mixin.py:109} INFO - [2021-10-03 06:56:17,198] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:56:17,242] {logging_mixin.py:109} INFO - [2021-10-03 06:56:17,242] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:56:17,284] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.507 seconds
+[2021-10-03 06:56:47,824] {processor.py:162} INFO - Started process (PID=3909) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:56:47,834] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:56:47,837] {logging_mixin.py:109} INFO - [2021-10-03 06:56:47,837] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:56:48,032] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:56:48,058] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:56:48,070] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:56:48,095] {logging_mixin.py:109} INFO - [2021-10-03 06:56:48,095] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:56:48,134] {logging_mixin.py:109} INFO - [2021-10-03 06:56:48,134] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:56:48,228] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.408 seconds
+[2021-10-03 06:57:18,421] {processor.py:162} INFO - Started process (PID=3977) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:57:18,430] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:57:18,431] {logging_mixin.py:109} INFO - [2021-10-03 06:57:18,431] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:57:18,738] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:57:18,803] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:57:18,834] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:57:18,868] {logging_mixin.py:109} INFO - [2021-10-03 06:57:18,866] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:57:18,890] {logging_mixin.py:109} INFO - [2021-10-03 06:57:18,890] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:57:18,917] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.505 seconds
+[2021-10-03 06:57:49,743] {processor.py:162} INFO - Started process (PID=4034) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:57:49,746] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:57:49,749] {logging_mixin.py:109} INFO - [2021-10-03 06:57:49,749] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:57:49,978] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:57:50,020] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:57:50,037] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:57:50,071] {logging_mixin.py:109} INFO - [2021-10-03 06:57:50,071] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:57:50,109] {logging_mixin.py:109} INFO - [2021-10-03 06:57:50,109] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:57:50,147] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.408 seconds
+[2021-10-03 06:58:01,716] {processor.py:162} INFO - Started process (PID=4053) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:01,724] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:58:01,726] {logging_mixin.py:109} INFO - [2021-10-03 06:58:01,726] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:01,846] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:58:01,880] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:58:01,897] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:02,100] {logging_mixin.py:109} INFO - [2021-10-03 06:58:02,099] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:58:02,129] {logging_mixin.py:109} INFO - [2021-10-03 06:58:02,129] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:58:02,149] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.440 seconds
+[2021-10-03 06:58:16,496] {processor.py:162} INFO - Started process (PID=4081) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:16,500] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:58:16,502] {logging_mixin.py:109} INFO - [2021-10-03 06:58:16,502] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:16,668] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:58:16,702] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:58:16,717] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:16,722] {logging_mixin.py:109} INFO - [2021-10-03 06:58:16,722] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:58:16,764] {logging_mixin.py:109} INFO - [2021-10-03 06:58:16,763] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:58:16,804] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.321 seconds
+[2021-10-03 06:58:47,138] {processor.py:162} INFO - Started process (PID=4136) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:47,147] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:58:47,151] {logging_mixin.py:109} INFO - [2021-10-03 06:58:47,151] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:47,557] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:58:47,637] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:58:47,677] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:58:48,583] {logging_mixin.py:109} INFO - [2021-10-03 06:58:48,582] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:58:48,746] {logging_mixin.py:109} INFO - [2021-10-03 06:58:48,746] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:58:48,872] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 1.740 seconds
+[2021-10-03 06:59:19,783] {processor.py:162} INFO - Started process (PID=4203) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:59:19,787] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:59:19,789] {logging_mixin.py:109} INFO - [2021-10-03 06:59:19,789] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:59:20,029] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:59:20,080] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:59:20,131] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:59:20,187] {logging_mixin.py:109} INFO - [2021-10-03 06:59:20,186] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:59:20,268] {logging_mixin.py:109} INFO - [2021-10-03 06:59:20,268] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:59:20,301] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.529 seconds
+[2021-10-03 06:59:50,467] {processor.py:162} INFO - Started process (PID=4264) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:59:50,481] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 06:59:50,486] {logging_mixin.py:109} INFO - [2021-10-03 06:59:50,485] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:59:50,852] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 06:59:50,915] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 06:59:50,941] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 06:59:51,014] {logging_mixin.py:109} INFO - [2021-10-03 06:59:51,014] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 06:59:51,086] {logging_mixin.py:109} INFO - [2021-10-03 06:59:51,086] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 06:59:51,114] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.665 seconds
+[2021-10-03 07:00:21,573] {processor.py:162} INFO - Started process (PID=4319) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:21,583] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:00:21,588] {logging_mixin.py:109} INFO - [2021-10-03 07:00:21,587] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:21,821] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:00:21,856] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:00:21,868] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:21,885] {logging_mixin.py:109} INFO - [2021-10-03 07:00:21,884] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:00:21,908] {logging_mixin.py:109} INFO - [2021-10-03 07:00:21,908] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:00:21,923] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.372 seconds
+[2021-10-03 07:00:52,036] {processor.py:162} INFO - Started process (PID=4376) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:52,038] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:00:52,044] {logging_mixin.py:109} INFO - [2021-10-03 07:00:52,044] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:52,136] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:00:52,165] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:00:52,181] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:52,203] {logging_mixin.py:109} INFO - [2021-10-03 07:00:52,203] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:00:52,231] {logging_mixin.py:109} INFO - [2021-10-03 07:00:52,231] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:00:52,252] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.222 seconds
+[2021-10-03 07:00:54,490] {processor.py:162} INFO - Started process (PID=4380) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:54,492] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:00:54,493] {logging_mixin.py:109} INFO - [2021-10-03 07:00:54,493] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:54,613] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:00:54,638] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:00:54,658] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:00:54,919] {logging_mixin.py:109} INFO - [2021-10-03 07:00:54,919] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:00:54,948] {logging_mixin.py:109} INFO - [2021-10-03 07:00:54,948] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:00:54,975] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.489 seconds
+[2021-10-03 07:01:25,797] {processor.py:162} INFO - Started process (PID=4444) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:01:25,804] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:01:25,805] {logging_mixin.py:109} INFO - [2021-10-03 07:01:25,805] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:01:26,018] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:01:26,058] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:01:26,071] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:01:26,092] {logging_mixin.py:109} INFO - [2021-10-03 07:01:26,092] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:01:26,111] {logging_mixin.py:109} INFO - [2021-10-03 07:01:26,110] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:01:26,125] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.331 seconds
+[2021-10-03 07:01:56,478] {processor.py:162} INFO - Started process (PID=4499) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:01:56,483] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:01:56,489] {logging_mixin.py:109} INFO - [2021-10-03 07:01:56,489] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:01:56,639] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:01:56,673] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:01:56,690] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:01:56,713] {logging_mixin.py:109} INFO - [2021-10-03 07:01:56,713] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:01:56,733] {logging_mixin.py:109} INFO - [2021-10-03 07:01:56,733] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:01:56,752] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.280 seconds
+[2021-10-03 07:02:26,855] {processor.py:162} INFO - Started process (PID=4566) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:02:26,858] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:02:26,859] {logging_mixin.py:109} INFO - [2021-10-03 07:02:26,859] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:02:26,947] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:02:26,977] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:02:26,993] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:02:27,043] {logging_mixin.py:109} INFO - [2021-10-03 07:02:27,043] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:02:27,066] {logging_mixin.py:109} INFO - [2021-10-03 07:02:27,066] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:02:27,082] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.231 seconds
+[2021-10-03 07:02:57,391] {processor.py:162} INFO - Started process (PID=4621) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:02:57,401] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:02:57,404] {logging_mixin.py:109} INFO - [2021-10-03 07:02:57,404] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:02:57,474] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:02:57,493] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:02:57,503] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:02:57,540] {logging_mixin.py:109} INFO - [2021-10-03 07:02:57,539] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:02:57,557] {logging_mixin.py:109} INFO - [2021-10-03 07:02:57,557] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:02:57,569] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.186 seconds
+[2021-10-03 07:03:27,747] {processor.py:162} INFO - Started process (PID=4677) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:03:27,754] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:03:27,758] {logging_mixin.py:109} INFO - [2021-10-03 07:03:27,758] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:03:27,907] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:03:27,933] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:03:27,947] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:03:27,962] {logging_mixin.py:109} INFO - [2021-10-03 07:03:27,962] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:03:27,993] {logging_mixin.py:109} INFO - [2021-10-03 07:03:27,993] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:03:28,006] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.274 seconds
+[2021-10-03 07:03:58,366] {processor.py:162} INFO - Started process (PID=4745) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:03:58,371] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:03:58,382] {logging_mixin.py:109} INFO - [2021-10-03 07:03:58,382] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:03:58,664] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:03:58,706] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:03:58,722] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:03:58,785] {logging_mixin.py:109} INFO - [2021-10-03 07:03:58,784] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:03:58,889] {logging_mixin.py:109} INFO - [2021-10-03 07:03:58,889] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:03:58,910] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.596 seconds
+[2021-10-03 07:04:29,835] {processor.py:162} INFO - Started process (PID=4800) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:04:29,840] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:04:29,843] {logging_mixin.py:109} INFO - [2021-10-03 07:04:29,842] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:04:29,951] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:04:29,977] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:04:29,986] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:04:30,003] {logging_mixin.py:109} INFO - [2021-10-03 07:04:30,002] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:04:30,058] {logging_mixin.py:109} INFO - [2021-10-03 07:04:30,058] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:04:30,089] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.259 seconds
+[2021-10-03 07:05:00,482] {processor.py:162} INFO - Started process (PID=4865) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:00,488] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:05:00,490] {logging_mixin.py:109} INFO - [2021-10-03 07:05:00,490] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:00,614] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:05:00,692] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:05:00,738] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:00,795] {logging_mixin.py:109} INFO - [2021-10-03 07:05:00,795] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:05:00,885] {logging_mixin.py:109} INFO - [2021-10-03 07:05:00,885] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:05:00,953] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.480 seconds
+[2021-10-03 07:05:31,984] {processor.py:162} INFO - Started process (PID=4920) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:31,991] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:05:31,993] {logging_mixin.py:109} INFO - [2021-10-03 07:05:31,993] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:32,261] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:05:32,287] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:05:32,352] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:32,374] {logging_mixin.py:109} INFO - [2021-10-03 07:05:32,374] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:05:32,396] {logging_mixin.py:109} INFO - [2021-10-03 07:05:32,395] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:05:32,409] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.430 seconds
+[2021-10-03 07:05:59,089] {processor.py:162} INFO - Started process (PID=4969) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:59,100] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:05:59,103] {logging_mixin.py:109} INFO - [2021-10-03 07:05:59,102] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:59,226] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:05:59,249] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:05:59,274] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:05:59,508] {logging_mixin.py:109} INFO - [2021-10-03 07:05:59,508] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:05:59,528] {logging_mixin.py:109} INFO - [2021-10-03 07:05:59,528] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:05:59,573] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.487 seconds
+[2021-10-03 07:06:11,617] {processor.py:162} INFO - Started process (PID=5001) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:06:11,619] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:06:11,621] {logging_mixin.py:109} INFO - [2021-10-03 07:06:11,621] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:06:11,709] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:06:11,731] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:06:11,759] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:06:11,769] {logging_mixin.py:109} INFO - [2021-10-03 07:06:11,769] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:06:11,795] {logging_mixin.py:109} INFO - [2021-10-03 07:06:11,795] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:06:11,817] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.204 seconds
+[2021-10-03 07:06:42,267] {processor.py:162} INFO - Started process (PID=5056) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:06:42,270] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:06:42,272] {logging_mixin.py:109} INFO - [2021-10-03 07:06:42,271] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:06:42,346] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:06:42,371] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:06:42,387] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:06:42,577] {logging_mixin.py:109} INFO - [2021-10-03 07:06:42,577] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:06:42,594] {logging_mixin.py:109} INFO - [2021-10-03 07:06:42,594] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:06:42,613] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.351 seconds
+[2021-10-03 07:07:13,443] {processor.py:162} INFO - Started process (PID=5110) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:07:13,446] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:07:13,448] {logging_mixin.py:109} INFO - [2021-10-03 07:07:13,448] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:07:13,524] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:07:13,550] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:07:13,559] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:07:13,578] {logging_mixin.py:109} INFO - [2021-10-03 07:07:13,578] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:07:13,597] {logging_mixin.py:109} INFO - [2021-10-03 07:07:13,596] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:07:13,620] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.181 seconds
+[2021-10-03 07:07:44,355] {processor.py:162} INFO - Started process (PID=5164) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:07:44,357] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:07:44,359] {logging_mixin.py:109} INFO - [2021-10-03 07:07:44,359] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:07:44,506] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:07:44,599] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:07:44,623] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:07:44,657] {logging_mixin.py:109} INFO - [2021-10-03 07:07:44,656] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:07:44,698] {logging_mixin.py:109} INFO - [2021-10-03 07:07:44,698] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:07:44,747] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.396 seconds
+[2021-10-03 07:08:15,123] {processor.py:162} INFO - Started process (PID=5229) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:15,134] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:08:15,139] {logging_mixin.py:109} INFO - [2021-10-03 07:08:15,139] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:15,841] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:08:15,999] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:08:16,054] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:16,125] {logging_mixin.py:109} INFO - [2021-10-03 07:08:16,125] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:08:16,196] {logging_mixin.py:109} INFO - [2021-10-03 07:08:16,196] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:08:16,285] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 1.168 seconds
+[2021-10-03 07:08:28,637] {processor.py:162} INFO - Started process (PID=5249) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:28,652] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:08:28,656] {logging_mixin.py:109} INFO - [2021-10-03 07:08:28,656] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:28,781] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:08:28,818] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:08:28,836] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:28,859] {logging_mixin.py:109} INFO - [2021-10-03 07:08:28,859] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:08:28,886] {logging_mixin.py:109} INFO - [2021-10-03 07:08:28,886] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:08:28,913] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.288 seconds
+[2021-10-03 07:08:58,965] {processor.py:162} INFO - Started process (PID=5305) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:58,976] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:08:58,983] {logging_mixin.py:109} INFO - [2021-10-03 07:08:58,982] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:59,078] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:08:59,107] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:08:59,125] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:08:59,142] {logging_mixin.py:109} INFO - [2021-10-03 07:08:59,141] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:08:59,171] {logging_mixin.py:109} INFO - [2021-10-03 07:08:59,171] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:08:59,197] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.247 seconds
+[2021-10-03 07:09:00,065] {processor.py:162} INFO - Started process (PID=5306) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:09:00,071] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:09:00,074] {logging_mixin.py:109} INFO - [2021-10-03 07:09:00,074] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:09:00,220] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:09:00,254] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:09:00,271] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:09:00,290] {logging_mixin.py:109} INFO - [2021-10-03 07:09:00,290] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:09:00,354] {logging_mixin.py:109} INFO - [2021-10-03 07:09:00,354] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:09:00,391] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.335 seconds
+[2021-10-03 07:09:30,768] {processor.py:162} INFO - Started process (PID=5370) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:09:30,776] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:09:30,780] {logging_mixin.py:109} INFO - [2021-10-03 07:09:30,779] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:09:30,988] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:09:31,022] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:09:31,036] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:09:31,059] {logging_mixin.py:109} INFO - [2021-10-03 07:09:31,059] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:09:31,113] {logging_mixin.py:109} INFO - [2021-10-03 07:09:31,113] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:09:31,152] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.397 seconds
+[2021-10-03 07:10:01,469] {processor.py:162} INFO - Started process (PID=5427) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:10:01,472] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:10:01,474] {logging_mixin.py:109} INFO - [2021-10-03 07:10:01,474] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:10:01,558] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:10:01,584] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:10:01,600] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:10:01,621] {logging_mixin.py:109} INFO - [2021-10-03 07:10:01,621] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:10:01,651] {logging_mixin.py:109} INFO - [2021-10-03 07:10:01,651] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:10:01,671] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.213 seconds
+[2021-10-03 07:10:32,001] {processor.py:162} INFO - Started process (PID=5480) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:10:32,009] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:10:32,015] {logging_mixin.py:109} INFO - [2021-10-03 07:10:32,014] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:10:32,188] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:10:32,222] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:10:32,240] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:10:32,258] {logging_mixin.py:109} INFO - [2021-10-03 07:10:32,257] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:10:32,275] {logging_mixin.py:109} INFO - [2021-10-03 07:10:32,275] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:10:32,290] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.304 seconds
+[2021-10-03 07:11:02,762] {processor.py:162} INFO - Started process (PID=5537) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:11:02,766] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:11:02,769] {logging_mixin.py:109} INFO - [2021-10-03 07:11:02,769] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:11:02,843] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:11:02,868] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:11:02,877] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:11:02,891] {logging_mixin.py:109} INFO - [2021-10-03 07:11:02,891] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:11:02,909] {logging_mixin.py:109} INFO - [2021-10-03 07:11:02,908] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:11:02,926] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.169 seconds
+[2021-10-03 07:11:33,051] {processor.py:162} INFO - Started process (PID=5591) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:11:33,054] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:11:33,056] {logging_mixin.py:109} INFO - [2021-10-03 07:11:33,056] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:11:33,172] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:11:33,242] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:11:33,258] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:11:33,280] {logging_mixin.py:109} INFO - [2021-10-03 07:11:33,280] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:11:33,311] {logging_mixin.py:109} INFO - [2021-10-03 07:11:33,309] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:11:33,365] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.320 seconds
+[2021-10-03 07:12:03,753] {processor.py:162} INFO - Started process (PID=5657) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:12:03,755] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:12:03,757] {logging_mixin.py:109} INFO - [2021-10-03 07:12:03,756] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:12:03,827] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:12:03,849] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:12:03,857] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:12:03,873] {logging_mixin.py:109} INFO - [2021-10-03 07:12:03,873] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:12:03,890] {logging_mixin.py:109} INFO - [2021-10-03 07:12:03,890] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:12:03,903] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.155 seconds
+[2021-10-03 07:12:34,364] {processor.py:162} INFO - Started process (PID=5713) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:12:34,366] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:12:34,367] {logging_mixin.py:109} INFO - [2021-10-03 07:12:34,367] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:12:34,447] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:12:34,469] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:12:34,477] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:12:34,493] {logging_mixin.py:109} INFO - [2021-10-03 07:12:34,493] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:12:34,512] {logging_mixin.py:109} INFO - [2021-10-03 07:12:34,512] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:12:34,526] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.168 seconds
+[2021-10-03 07:13:04,659] {processor.py:162} INFO - Started process (PID=5778) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:13:04,669] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:13:04,671] {logging_mixin.py:109} INFO - [2021-10-03 07:13:04,670] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:13:04,757] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:13:04,783] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:13:04,801] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:13:04,822] {logging_mixin.py:109} INFO - [2021-10-03 07:13:04,822] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:13:04,848] {logging_mixin.py:109} INFO - [2021-10-03 07:13:04,848] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:13:04,861] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.214 seconds
+[2021-10-03 07:13:35,105] {processor.py:162} INFO - Started process (PID=5834) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:13:35,113] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:13:35,116] {logging_mixin.py:109} INFO - [2021-10-03 07:13:35,116] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:13:35,189] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:13:35,207] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:13:35,216] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:13:35,229] {logging_mixin.py:109} INFO - [2021-10-03 07:13:35,229] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:13:35,245] {logging_mixin.py:109} INFO - [2021-10-03 07:13:35,245] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:13:35,256] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.167 seconds
+[2021-10-03 07:14:06,128] {processor.py:162} INFO - Started process (PID=5904) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:14:06,131] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:14:06,132] {logging_mixin.py:109} INFO - [2021-10-03 07:14:06,132] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:14:06,200] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:14:06,223] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:14:06,231] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:14:06,246] {logging_mixin.py:109} INFO - [2021-10-03 07:14:06,246] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:14:06,268] {logging_mixin.py:109} INFO - [2021-10-03 07:14:06,268] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:14:06,287] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.163 seconds
+[2021-10-03 07:14:37,081] {processor.py:162} INFO - Started process (PID=5972) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:14:37,090] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:14:37,093] {logging_mixin.py:109} INFO - [2021-10-03 07:14:37,093] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:14:37,231] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:14:37,250] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:14:37,260] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:14:37,280] {logging_mixin.py:109} INFO - [2021-10-03 07:14:37,280] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:14:37,306] {logging_mixin.py:109} INFO - [2021-10-03 07:14:37,305] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:14:37,332] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.256 seconds
+[2021-10-03 07:15:07,531] {processor.py:162} INFO - Started process (PID=6027) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:15:07,540] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:15:07,542] {logging_mixin.py:109} INFO - [2021-10-03 07:15:07,542] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:15:07,702] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:15:07,728] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:15:07,757] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:15:07,773] {logging_mixin.py:109} INFO - [2021-10-03 07:15:07,773] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:15:07,790] {logging_mixin.py:109} INFO - [2021-10-03 07:15:07,790] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:15:07,811] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.285 seconds
+[2021-10-03 07:15:38,123] {processor.py:162} INFO - Started process (PID=6098) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:15:38,133] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:15:38,139] {logging_mixin.py:109} INFO - [2021-10-03 07:15:38,137] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:15:38,477] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:15:38,565] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:15:38,599] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:15:38,625] {logging_mixin.py:109} INFO - [2021-10-03 07:15:38,624] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:15:38,658] {logging_mixin.py:109} INFO - [2021-10-03 07:15:38,658] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:15:38,695] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.590 seconds
+[2021-10-03 07:16:08,749] {processor.py:162} INFO - Started process (PID=6154) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:16:08,752] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:16:08,753] {logging_mixin.py:109} INFO - [2021-10-03 07:16:08,753] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:16:08,820] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:16:08,843] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:16:08,859] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:16:08,874] {logging_mixin.py:109} INFO - [2021-10-03 07:16:08,874] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:16:08,891] {logging_mixin.py:109} INFO - [2021-10-03 07:16:08,891] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:16:08,916] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.171 seconds
+[2021-10-03 07:16:39,043] {processor.py:162} INFO - Started process (PID=6206) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:16:39,046] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:16:39,048] {logging_mixin.py:109} INFO - [2021-10-03 07:16:39,047] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:16:39,131] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:16:39,158] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:16:39,168] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:16:39,185] {logging_mixin.py:109} INFO - [2021-10-03 07:16:39,185] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:16:39,212] {logging_mixin.py:109} INFO - [2021-10-03 07:16:39,212] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:16:39,226] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.190 seconds
+[2021-10-03 07:17:10,135] {processor.py:162} INFO - Started process (PID=6273) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:17:10,141] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:17:10,143] {logging_mixin.py:109} INFO - [2021-10-03 07:17:10,143] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:17:10,230] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:17:10,260] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:17:10,281] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:17:10,302] {logging_mixin.py:109} INFO - [2021-10-03 07:17:10,302] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:17:10,336] {logging_mixin.py:109} INFO - [2021-10-03 07:17:10,336] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:17:10,383] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.255 seconds
+[2021-10-03 07:17:41,175] {processor.py:162} INFO - Started process (PID=6327) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:17:41,178] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:17:41,181] {logging_mixin.py:109} INFO - [2021-10-03 07:17:41,181] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:17:41,273] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:17:41,291] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:17:41,300] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:17:41,313] {logging_mixin.py:109} INFO - [2021-10-03 07:17:41,313] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:17:41,329] {logging_mixin.py:109} INFO - [2021-10-03 07:17:41,328] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:17:41,340] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.175 seconds
+[2021-10-03 07:18:12,034] {processor.py:162} INFO - Started process (PID=6398) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:18:12,037] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:18:12,055] {logging_mixin.py:109} INFO - [2021-10-03 07:18:12,054] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:18:12,400] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:18:12,447] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:18:12,468] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:18:12,500] {logging_mixin.py:109} INFO - [2021-10-03 07:18:12,500] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:18:12,538] {logging_mixin.py:109} INFO - [2021-10-03 07:18:12,538] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:18:12,575] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.553 seconds
+[2021-10-03 07:18:42,858] {processor.py:162} INFO - Started process (PID=6455) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:18:42,864] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:18:42,866] {logging_mixin.py:109} INFO - [2021-10-03 07:18:42,866] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:18:42,955] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:18:42,983] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:18:42,999] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:18:43,019] {logging_mixin.py:109} INFO - [2021-10-03 07:18:43,019] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:18:43,046] {logging_mixin.py:109} INFO - [2021-10-03 07:18:43,046] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:18:43,072] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.221 seconds
+[2021-10-03 07:19:13,713] {processor.py:162} INFO - Started process (PID=6523) to work on /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:19:13,720] {processor.py:613} INFO - Processing file /opt/airflow/dags/historical_restate.py for tasks to queue
+[2021-10-03 07:19:13,722] {logging_mixin.py:109} INFO - [2021-10-03 07:19:13,722] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:19:13,822] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:19:13,863] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:19:13,883] {processor.py:623} INFO - DAG(s) dict_keys(['dag2']) retrieved from /opt/airflow/dags/historical_restate.py
+[2021-10-03 07:19:13,902] {logging_mixin.py:109} INFO - [2021-10-03 07:19:13,902] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:19:13,929] {logging_mixin.py:109} INFO - [2021-10-03 07:19:13,929] {dag.py:2287} INFO - Setting next_dagrun for dag2 to 2021-10-30T00:00:00+00:00
+[2021-10-03 07:19:13,942] {processor.py:170} INFO - Processing /opt/airflow/dags/historical_restate.py took 0.237 seconds

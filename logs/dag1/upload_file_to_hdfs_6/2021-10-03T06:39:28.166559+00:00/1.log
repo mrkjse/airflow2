@@ -1,0 +1,28 @@
+[2021-10-03 06:39:48,039] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag1.upload_file_to_hdfs_6 2021-10-03T06:39:28.166559+00:00 [queued]>
+[2021-10-03 06:39:48,523] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag1.upload_file_to_hdfs_6 2021-10-03T06:39:28.166559+00:00 [queued]>
+[2021-10-03 06:39:48,538] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 06:39:48,556] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-10-03 06:39:48,576] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 06:39:48,736] {taskinstance.py:1115} INFO - Executing <Task(BashOperator): upload_file_to_hdfs_6> on 2021-10-03T06:39:28.166559+00:00
+[2021-10-03 06:39:48,793] {standard_task_runner.py:52} INFO - Started process 1054 to run task
+[2021-10-03 06:39:49,005] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag1', 'upload_file_to_hdfs_6', '2021-10-03T06:39:28.166559+00:00', '--job-id', '64', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/upload_file_to_staging.py', '--cfg-path', '/tmp/tmpq6kcgbl9', '--error-file', '/tmp/tmp6qtqnbjq']
+[2021-10-03 06:39:49,115] {standard_task_runner.py:77} INFO - Job 64: Subtask upload_file_to_hdfs_6
+[2021-10-03 06:39:50,386] {logging_mixin.py:109} INFO - Running <TaskInstance: dag1.upload_file_to_hdfs_6 2021-10-03T06:39:28.166559+00:00 [running]> on host 405455ff482b
+[2021-10-03 06:39:51,502] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mrk.jse@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag1
+AIRFLOW_CTX_TASK_ID=upload_file_to_hdfs_6
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-03T06:39:28.166559+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-10-03T06:39:28.166559+00:00
+[2021-10-03 06:39:51,532] {subprocess.py:52} INFO - Tmp dir root location: 
+ /tmp
+[2021-10-03 06:39:51,584] {subprocess.py:63} INFO - Running command: ['bash', '-c', 'echo "Uploading transactions_6.csv..."']
+[2021-10-03 06:39:51,849] {subprocess.py:74} INFO - Output:
+[2021-10-03 06:39:51,880] {subprocess.py:78} INFO - Uploading transactions_6.csv...
+[2021-10-03 06:39:51,882] {subprocess.py:82} INFO - Command exited with return code 0
+[2021-10-03 06:39:52,219] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=dag1, task_id=upload_file_to_hdfs_6, execution_date=20211003T063928, start_date=20211003T063948, end_date=20211003T063952
+[2021-10-03 06:39:52,435] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-10-03 06:39:52,750] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

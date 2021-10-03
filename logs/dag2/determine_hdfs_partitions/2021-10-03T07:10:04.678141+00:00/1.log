@@ -1,0 +1,26 @@
+[2021-10-03 07:10:12,179] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag2.determine_hdfs_partitions 2021-10-03T07:10:04.678141+00:00 [queued]>
+[2021-10-03 07:10:12,279] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag2.determine_hdfs_partitions 2021-10-03T07:10:04.678141+00:00 [queued]>
+[2021-10-03 07:10:12,283] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 07:10:12,287] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-10-03 07:10:12,290] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 07:10:12,329] {taskinstance.py:1115} INFO - Executing <Task(BranchPythonOperator): determine_hdfs_partitions> on 2021-10-03T07:10:04.678141+00:00
+[2021-10-03 07:10:12,360] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag2', 'determine_hdfs_partitions', '2021-10-03T07:10:04.678141+00:00', '--job-id', '76', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/historical_restate.py', '--cfg-path', '/tmp/tmpcstfdijr', '--error-file', '/tmp/tmpxqolud3k']
+[2021-10-03 07:10:12,361] {standard_task_runner.py:77} INFO - Job 76: Subtask determine_hdfs_partitions
+[2021-10-03 07:10:12,347] {standard_task_runner.py:52} INFO - Started process 2645 to run task
+[2021-10-03 07:10:12,455] {logging_mixin.py:109} INFO - Running <TaskInstance: dag2.determine_hdfs_partitions 2021-10-03T07:10:04.678141+00:00 [running]> on host 405455ff482b
+[2021-10-03 07:10:12,749] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mrk.jse@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag2
+AIRFLOW_CTX_TASK_ID=determine_hdfs_partitions
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-03T07:10:04.678141+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-10-03T07:10:04.678141+00:00
+[2021-10-03 07:10:12,767] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:10:12,771] {python.py:151} INFO - Done. Returned value was: activate_gcp_cluster
+[2021-10-03 07:10:12,772] {skipmixin.py:124} INFO - Following branch activate_gcp_cluster
+[2021-10-03 07:10:12,789] {skipmixin.py:155} INFO - Skipping tasks ['notify_data_integrity_issue']
+[2021-10-03 07:10:12,953] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=dag2, task_id=determine_hdfs_partitions, execution_date=20211003T071004, start_date=20211003T071012, end_date=20211003T071012
+[2021-10-03 07:10:13,019] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-10-03 07:10:13,113] {local_task_job.py:261} INFO - 0 downstream tasks scheduled from follow-on schedule check

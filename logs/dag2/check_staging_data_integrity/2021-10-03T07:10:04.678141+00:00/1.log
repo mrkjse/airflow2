@@ -1,0 +1,23 @@
+[2021-10-03 07:10:08,434] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag2.check_staging_data_integrity 2021-10-03T07:10:04.678141+00:00 [queued]>
+[2021-10-03 07:10:08,457] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag2.check_staging_data_integrity 2021-10-03T07:10:04.678141+00:00 [queued]>
+[2021-10-03 07:10:08,458] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 07:10:08,460] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-10-03 07:10:08,461] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 07:10:08,482] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): check_staging_data_integrity> on 2021-10-03T07:10:04.678141+00:00
+[2021-10-03 07:10:08,488] {standard_task_runner.py:52} INFO - Started process 2632 to run task
+[2021-10-03 07:10:08,506] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag2', 'check_staging_data_integrity', '2021-10-03T07:10:04.678141+00:00', '--job-id', '75', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/historical_restate.py', '--cfg-path', '/tmp/tmp09it67a5', '--error-file', '/tmp/tmpvhpm5gei']
+[2021-10-03 07:10:08,508] {standard_task_runner.py:77} INFO - Job 75: Subtask check_staging_data_integrity
+[2021-10-03 07:10:08,605] {logging_mixin.py:109} INFO - Running <TaskInstance: dag2.check_staging_data_integrity 2021-10-03T07:10:04.678141+00:00 [running]> on host 405455ff482b
+[2021-10-03 07:10:08,682] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mrk.jse@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag2
+AIRFLOW_CTX_TASK_ID=check_staging_data_integrity
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-03T07:10:04.678141+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-10-03T07:10:04.678141+00:00
+[2021-10-03 07:10:08,710] {python.py:151} INFO - Done. Returned value was: True
+[2021-10-03 07:10:08,748] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=dag2, task_id=check_staging_data_integrity, execution_date=20211003T071004, start_date=20211003T071008, end_date=20211003T071008
+[2021-10-03 07:10:08,808] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-10-03 07:10:08,852] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,25 @@
+[2021-10-03 06:39:35,131] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag1.partition_transaction_files 2021-10-03T06:39:28.166559+00:00 [queued]>
+[2021-10-03 06:39:35,187] {taskinstance.py:903} INFO - Dependencies all met for <TaskInstance: dag1.partition_transaction_files 2021-10-03T06:39:28.166559+00:00 [queued]>
+[2021-10-03 06:39:35,194] {taskinstance.py:1095} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 06:39:35,198] {taskinstance.py:1096} INFO - Starting attempt 1 of 1
+[2021-10-03 06:39:35,200] {taskinstance.py:1097} INFO - 
+--------------------------------------------------------------------------------
+[2021-10-03 06:39:35,284] {taskinstance.py:1115} INFO - Executing <Task(PythonOperator): partition_transaction_files> on 2021-10-03T06:39:28.166559+00:00
+[2021-10-03 06:39:35,374] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'dag1', 'partition_transaction_files', '2021-10-03T06:39:28.166559+00:00', '--job-id', '58', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/upload_file_to_staging.py', '--cfg-path', '/tmp/tmpr2uy8bce', '--error-file', '/tmp/tmpw9s3h8gl']
+[2021-10-03 06:39:35,383] {standard_task_runner.py:77} INFO - Job 58: Subtask partition_transaction_files
+[2021-10-03 06:39:35,298] {standard_task_runner.py:52} INFO - Started process 1026 to run task
+[2021-10-03 06:39:35,770] {logging_mixin.py:109} INFO - Running <TaskInstance: dag1.partition_transaction_files 2021-10-03T06:39:28.166559+00:00 [running]> on host 405455ff482b
+[2021-10-03 06:39:36,050] {taskinstance.py:1254} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_EMAIL=mrk.jse@gmail.com
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=dag1
+AIRFLOW_CTX_TASK_ID=partition_transaction_files
+AIRFLOW_CTX_EXECUTION_DATE=2021-10-03T06:39:28.166559+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-10-03T06:39:28.166559+00:00
+[2021-10-03 06:39:36,055] {logging_mixin.py:109} INFO - This function will partition /opt/***/plugins/bank_transactions.csv into 31 files.
+[2021-10-03 06:39:36,236] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2021-10-03 06:39:36,252] {python.py:151} INFO - Done. Returned value was: None
+[2021-10-03 06:39:36,308] {taskinstance.py:1219} INFO - Marking task as SUCCESS. dag_id=dag1, task_id=partition_transaction_files, execution_date=20211003T063928, start_date=20211003T063935, end_date=20211003T063936
+[2021-10-03 06:39:36,481] {local_task_job.py:151} INFO - Task exited with return code 0
+[2021-10-03 06:39:36,584] {local_task_job.py:261} INFO - 1 downstream tasks scheduled from follow-on schedule check
