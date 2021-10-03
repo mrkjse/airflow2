@@ -23,7 +23,7 @@ class SIZE_UNIT(enum.Enum):
    GB = 4
 
 def convert_unit(size_in_bytes, unit):
-   """ Convert the size from bytes to other units like KB, MB or GB"""
+   """ Convert the size from bytes to other units like KB, MB or GB """
    if unit == SIZE_UNIT.KB:
        return size_in_bytes/1024
    elif unit == SIZE_UNIT.MB:
@@ -62,6 +62,8 @@ def check_data_integrity(ti, **kwargs):
 
     """
 
+    # Validate data here...
+
     validation_result = True
 
     ti.xcom_push(key='monthly_dag_validation_result', value=validation_result)
@@ -70,22 +72,28 @@ def check_data_integrity(ti, **kwargs):
 
 
 def branch(**kwargs):
-    partition_size = Variable.get('monthly_dag_partition_size')
-    print('Partition size: {}'.format(partition_size))
+    """
+    This Python function will decide whether to proceed with uploading the data
+    into the cloud or not, based on the validation result.
 
-    partition_size = int(partition_size)
+    """
+    allow = Variable.get('monthly_dag_validation_result')
+    allow = bool(allow)
 
-    if partition_size > 5:
+    if allow:
         return 'activate_gcp_cluster'
     else:
         return 'notify_data_integrity_issue'
 
-def spur_group():
+def spun_group():
     partition_size = Variable.get('monthly_dag_partition_size')
     print('Partition size: {}'.format(partition_size))
 
     partition_size = int(partition_size)
 
+    # Due to Airflow constraints, we can only spur a maximum of 10 parallel tasks at a time
+    # But with an upgraded configuration, we can definitely spun more tasks to upload all 600 GB
+    # Otherwise, we can further subdivide the DAG to run 10 tasks at a time to overcome this limitation
     if partition_size > 10:
         partition_size = 10
 
@@ -124,7 +132,7 @@ def spur_group():
 
         """
         task_1 = BashOperator(
-            task_id = "update_cloud_warehouse_with_flat_file" + str(p),
+            task_id = "update_hive_tables_with_flat_file" + str(p),
             params = {"filename":filename},
             bash_command='echo "Uploading {{ params["filename"] }}..."',
         )
@@ -142,7 +150,7 @@ args = {
 
 
 with DAG(
-    dag_id='dag3',
+    dag_id='upload_daily_transactions',
     default_args=args,
     schedule_interval='30 0 * * *',
     start_date=days_ago(1),
@@ -153,8 +161,8 @@ with DAG(
 
     notify_data_integrity_issue = DummyOperator(task_id="notify_data_integrity_issue")
 
-    check_staging_data_integrity = PythonOperator(
-        task_id = 'check_staging_data_integrity',
+    check_daily_data_integrity = PythonOperator(
+        task_id = 'check_daily_data_integrity',
         provide_context=True,
         python_callable=check_data_integrity,
         op_kwargs={'staging_hdfs_location': '/opt/airflow/plugins/'},
@@ -183,8 +191,8 @@ with DAG(
         task_id ='end',
     )
 
-    start >> check_staging_data_integrity >> determine_integrity 
-    determine_integrity  >> activate_gcp_cluster >> check_hive_tables >> spur_group() >> end  
+    start >> check_daily_data_integrity >> determine_integrity 
+    determine_integrity  >> activate_gcp_cluster >> check_hive_tables >> spun_group() >> end  
     determine_integrity >> notify_data_integrity_issue >> end
 
 

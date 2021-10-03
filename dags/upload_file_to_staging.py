@@ -115,12 +115,15 @@ def branch(**kwargs):
     else:
         return 'notify_data_integrity_issue'
 
-def spur_group():
+def spun_group():
     partition_size = Variable.get('monthly_dag_partition_size')
     print('Partition size: {}'.format(partition_size))
 
     partition_size = int(partition_size)
-
+    
+    # Due to Airflow constraints, we can only spun a maximum of 10 parallel tasks at a time
+    # But with an upgraded configuration, we can definitely spun more tasks to upload all 600 GB
+    # Otherwise, we can further subdivide the DAG to run 10 tasks at a time to overcome this limitation
     if partition_size > 10:
         partition_size = 10
 
@@ -152,9 +155,9 @@ args = {
 
 
 with DAG(
-    dag_id='dag1',
+    dag_id='monthly_data_enrichment',
     default_args=args,
-    schedule_interval='* * 1 * *',
+    schedule_interval='30 0 1 * *',
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],
@@ -199,11 +202,11 @@ with DAG(
         task_id ='end',
     )
 
-    upload_files_to_blob = DummyOperator(
-        task_id='upload_files_to_blob'
+    check_hdfs_directory = DummyOperator(
+        task_id='check_hdfs_directory'
     )
     start >> check_transaction_data_integrity >> determine_integrity 
-    determine_integrity >> partition_transaction_files >> upload_files_to_blob >> spur_group() >> end  
+    determine_integrity >> partition_transaction_files >> check_hdfs_directory >> spun_group() >> end  
     determine_integrity >> notify_data_integrity_issue >> end
 
 

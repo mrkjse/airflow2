@@ -70,17 +70,20 @@ def check_data_integrity(ti, **kwargs):
 
 
 def branch(**kwargs):
-    partition_size = Variable.get('monthly_dag_partition_size')
-    print('Partition size: {}'.format(partition_size))
+    """
+    This Python function will decide whether to proceed with uploading the data
+    into the cloud or not, based on the validation result.
 
-    partition_size = int(partition_size)
+    """
+    allow = Variable.get('monthly_dag_validation_result')
+    allow = bool(allow)
 
-    if partition_size > 5:
+    if allow:
         return 'activate_gcp_cluster'
     else:
         return 'notify_data_integrity_issue'
 
-def spur_group():
+def spun_group():
     partition_size = Variable.get('monthly_dag_partition_size')
     print('Partition size: {}'.format(partition_size))
 
@@ -142,9 +145,9 @@ args = {
 
 
 with DAG(
-    dag_id='dag2',
+    dag_id='monthly_historical_restate',
     default_args=args,
-    schedule_interval='* * 30 * *',
+    schedule_interval='30 1 30 * *',
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],
@@ -184,7 +187,7 @@ with DAG(
     )
 
     start >> check_staging_data_integrity >> determine_hdfs_partitions 
-    determine_hdfs_partitions  >> activate_gcp_cluster >> check_hive_tables >> spur_group() >> end  
+    determine_hdfs_partitions  >> activate_gcp_cluster >> check_hive_tables >> spun_group() >> end  
     determine_hdfs_partitions >> notify_data_integrity_issue >> end
 
 

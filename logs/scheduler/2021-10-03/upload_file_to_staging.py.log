@@ -1004,3 +1004,499 @@ NameError: name 'partition_csv_files' is not defined
 [2021-10-03 07:19:05,271] {logging_mixin.py:109} INFO - [2021-10-03 07:19:05,271] {dag.py:1834} INFO - Sync 1 DAGs
 [2021-10-03 07:19:05,301] {logging_mixin.py:109} INFO - [2021-10-03 07:19:05,301] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
 [2021-10-03 07:19:05,334] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.246 seconds
+[2021-10-03 07:19:35,559] {processor.py:162} INFO - Started process (PID=6574) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:19:35,561] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:19:35,564] {logging_mixin.py:109} INFO - [2021-10-03 07:19:35,564] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:19:35,651] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:19:35,677] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:19:35,707] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:19:35,726] {logging_mixin.py:109} INFO - [2021-10-03 07:19:35,726] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:19:35,742] {logging_mixin.py:109} INFO - [2021-10-03 07:19:35,742] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:19:35,756] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.206 seconds
+[2021-10-03 07:20:05,992] {processor.py:162} INFO - Started process (PID=6630) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:20:06,002] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:20:06,004] {logging_mixin.py:109} INFO - [2021-10-03 07:20:06,004] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:20:06,095] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:20:06,117] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:20:06,130] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:20:06,156] {logging_mixin.py:109} INFO - [2021-10-03 07:20:06,155] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:20:06,176] {logging_mixin.py:109} INFO - [2021-10-03 07:20:06,176] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:20:06,193] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.210 seconds
+[2021-10-03 07:20:36,698] {processor.py:162} INFO - Started process (PID=6691) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:20:36,716] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:20:36,719] {logging_mixin.py:109} INFO - [2021-10-03 07:20:36,719] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:20:36,825] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:20:36,856] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:20:36,869] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:20:36,890] {logging_mixin.py:109} INFO - [2021-10-03 07:20:36,890] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:20:36,921] {logging_mixin.py:109} INFO - [2021-10-03 07:20:36,921] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:20:36,941] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.248 seconds
+[2021-10-03 07:21:07,154] {processor.py:162} INFO - Started process (PID=6755) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:21:07,168] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:21:07,173] {logging_mixin.py:109} INFO - [2021-10-03 07:21:07,173] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:21:07,727] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:21:07,805] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:21:07,827] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:21:07,849] {logging_mixin.py:109} INFO - [2021-10-03 07:21:07,849] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:21:07,876] {logging_mixin.py:109} INFO - [2021-10-03 07:21:07,875] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:21:07,896] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.751 seconds
+[2021-10-03 07:21:38,403] {processor.py:162} INFO - Started process (PID=6821) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:21:38,409] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:21:38,411] {logging_mixin.py:109} INFO - [2021-10-03 07:21:38,411] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:21:38,559] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:21:38,620] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:21:38,656] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:21:38,778] {logging_mixin.py:109} INFO - [2021-10-03 07:21:38,778] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:21:38,866] {logging_mixin.py:109} INFO - [2021-10-03 07:21:38,866] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:21:38,929] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.561 seconds
+[2021-10-03 07:22:09,234] {processor.py:162} INFO - Started process (PID=6875) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:22:09,241] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:22:09,255] {logging_mixin.py:109} INFO - [2021-10-03 07:22:09,249] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:22:09,802] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:22:09,866] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:22:09,984] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:22:10,096] {logging_mixin.py:109} INFO - [2021-10-03 07:22:10,096] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:22:10,273] {logging_mixin.py:109} INFO - [2021-10-03 07:22:10,262] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:22:10,411] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 1.214 seconds
+[2021-10-03 07:22:40,896] {processor.py:162} INFO - Started process (PID=6942) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:22:40,906] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:22:40,916] {logging_mixin.py:109} INFO - [2021-10-03 07:22:40,915] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:22:41,087] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:22:41,144] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:22:41,157] {processor.py:623} INFO - DAG(s) dict_keys(['dag1']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:22:41,228] {logging_mixin.py:109} INFO - [2021-10-03 07:22:41,228] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:22:41,261] {logging_mixin.py:109} INFO - [2021-10-03 07:22:41,261] {dag.py:2287} INFO - Setting next_dagrun for dag1 to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:22:41,294] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.413 seconds
+[2021-10-03 07:23:02,041] {processor.py:162} INFO - Started process (PID=6979) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:23:02,048] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:23:02,050] {logging_mixin.py:109} INFO - [2021-10-03 07:23:02,050] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:23:02,316] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:23:02,383] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:23:02,422] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:23:06,767] {logging_mixin.py:109} INFO - [2021-10-03 07:23:06,758] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:23:06,808] {logging_mixin.py:109} INFO - [2021-10-03 07:23:06,802] {dag.py:1853} INFO - Creating ORM DAG for monthly_data_enrichment
+[2021-10-03 07:23:06,821] {logging_mixin.py:109} INFO - [2021-10-03 07:23:06,821] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01T00:00:00+00:00
+[2021-10-03 07:23:06,854] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 4.822 seconds
+[2021-10-03 07:23:34,989] {processor.py:162} INFO - Started process (PID=7050) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:23:34,999] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:23:35,008] {logging_mixin.py:109} INFO - [2021-10-03 07:23:35,007] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:23:35,340] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:23:35,439] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:23:35,476] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:23:35,993] {logging_mixin.py:109} INFO - [2021-10-03 07:23:35,993] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:23:36,024] {logging_mixin.py:109} INFO - [2021-10-03 07:23:36,024] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:23:36,063] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 1.082 seconds
+[2021-10-03 07:24:06,281] {processor.py:162} INFO - Started process (PID=7109) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:24:06,288] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:24:06,291] {logging_mixin.py:109} INFO - [2021-10-03 07:24:06,291] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:24:06,558] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:24:06,768] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:24:06,941] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:24:07,061] {logging_mixin.py:109} INFO - [2021-10-03 07:24:07,061] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:24:07,165] {logging_mixin.py:109} INFO - [2021-10-03 07:24:07,153] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:24:07,222] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.952 seconds
+[2021-10-03 07:24:37,791] {processor.py:162} INFO - Started process (PID=7165) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:24:37,796] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:24:37,797] {logging_mixin.py:109} INFO - [2021-10-03 07:24:37,797] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:24:37,995] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:24:38,019] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:24:38,036] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:24:38,056] {logging_mixin.py:109} INFO - [2021-10-03 07:24:38,056] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:24:38,081] {logging_mixin.py:109} INFO - [2021-10-03 07:24:38,081] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:24:38,103] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.316 seconds
+[2021-10-03 07:25:08,753] {processor.py:162} INFO - Started process (PID=7235) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:25:08,766] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:25:08,771] {logging_mixin.py:109} INFO - [2021-10-03 07:25:08,771] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:25:09,525] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:25:09,586] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:25:09,616] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:25:09,670] {logging_mixin.py:109} INFO - [2021-10-03 07:25:09,670] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:25:09,744] {logging_mixin.py:109} INFO - [2021-10-03 07:25:09,744] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:25:09,798] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 1.106 seconds
+[2021-10-03 07:25:40,273] {processor.py:162} INFO - Started process (PID=7290) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:25:40,285] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:25:40,295] {logging_mixin.py:109} INFO - [2021-10-03 07:25:40,295] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:25:40,882] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:25:40,950] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:25:40,987] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:25:41,071] {logging_mixin.py:109} INFO - [2021-10-03 07:25:41,071] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:25:41,151] {logging_mixin.py:109} INFO - [2021-10-03 07:25:41,151] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:25:41,190] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.934 seconds
+[2021-10-03 07:26:11,609] {processor.py:162} INFO - Started process (PID=7348) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:26:11,615] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:26:11,618] {logging_mixin.py:109} INFO - [2021-10-03 07:26:11,618] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:26:11,756] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:26:11,784] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:26:11,801] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:26:11,830] {logging_mixin.py:109} INFO - [2021-10-03 07:26:11,830] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:26:11,869] {logging_mixin.py:109} INFO - [2021-10-03 07:26:11,869] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:26:11,888] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.285 seconds
+[2021-10-03 07:26:42,110] {processor.py:162} INFO - Started process (PID=7399) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:26:42,118] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:26:42,121] {logging_mixin.py:109} INFO - [2021-10-03 07:26:42,121] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:26:42,236] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:26:42,270] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:26:42,290] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:26:42,309] {logging_mixin.py:109} INFO - [2021-10-03 07:26:42,309] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:26:42,338] {logging_mixin.py:109} INFO - [2021-10-03 07:26:42,338] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:26:42,358] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.252 seconds
+[2021-10-03 07:27:12,506] {processor.py:162} INFO - Started process (PID=7463) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:27:12,518] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:27:12,520] {logging_mixin.py:109} INFO - [2021-10-03 07:27:12,520] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:27:12,888] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:27:13,040] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:27:13,098] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:27:13,198] {logging_mixin.py:109} INFO - [2021-10-03 07:27:13,197] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:27:13,246] {logging_mixin.py:109} INFO - [2021-10-03 07:27:13,246] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:27:13,276] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.788 seconds
+[2021-10-03 07:27:43,717] {processor.py:162} INFO - Started process (PID=7519) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:27:43,721] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:27:43,724] {logging_mixin.py:109} INFO - [2021-10-03 07:27:43,723] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:27:43,852] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:27:43,883] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:27:43,900] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:27:43,927] {logging_mixin.py:109} INFO - [2021-10-03 07:27:43,927] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:27:43,968] {logging_mixin.py:109} INFO - [2021-10-03 07:27:43,968] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:27:43,989] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.279 seconds
+[2021-10-03 07:28:14,576] {processor.py:162} INFO - Started process (PID=7583) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:28:14,579] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:28:14,584] {logging_mixin.py:109} INFO - [2021-10-03 07:28:14,584] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:28:14,959] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:28:14,996] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:28:15,019] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:28:15,059] {logging_mixin.py:109} INFO - [2021-10-03 07:28:15,059] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:28:15,106] {logging_mixin.py:109} INFO - [2021-10-03 07:28:15,106] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:28:15,180] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.610 seconds
+[2021-10-03 07:28:45,417] {processor.py:162} INFO - Started process (PID=7642) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:28:45,426] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:28:45,428] {logging_mixin.py:109} INFO - [2021-10-03 07:28:45,428] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:28:45,542] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:28:45,578] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:28:45,589] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:28:45,606] {logging_mixin.py:109} INFO - [2021-10-03 07:28:45,606] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:28:45,628] {logging_mixin.py:109} INFO - [2021-10-03 07:28:45,628] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:28:45,644] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.232 seconds
+[2021-10-03 07:29:15,870] {processor.py:162} INFO - Started process (PID=7699) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:29:15,876] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:29:15,881] {logging_mixin.py:109} INFO - [2021-10-03 07:29:15,880] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:29:16,018] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:29:16,042] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:29:16,054] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:29:16,072] {logging_mixin.py:109} INFO - [2021-10-03 07:29:16,072] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:29:16,095] {logging_mixin.py:109} INFO - [2021-10-03 07:29:16,095] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:29:16,112] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.250 seconds
+[2021-10-03 07:29:46,578] {processor.py:162} INFO - Started process (PID=7766) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:29:46,589] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:29:46,590] {logging_mixin.py:109} INFO - [2021-10-03 07:29:46,590] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:29:46,833] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:29:46,862] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:29:46,882] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:29:46,904] {logging_mixin.py:109} INFO - [2021-10-03 07:29:46,904] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:29:46,959] {logging_mixin.py:109} INFO - [2021-10-03 07:29:46,959] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:29:46,998] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.432 seconds
+[2021-10-03 07:30:17,333] {processor.py:162} INFO - Started process (PID=7821) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:30:17,341] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:30:17,343] {logging_mixin.py:109} INFO - [2021-10-03 07:30:17,342] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:30:17,435] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:30:17,462] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:30:17,478] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:30:17,501] {logging_mixin.py:109} INFO - [2021-10-03 07:30:17,501] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:30:17,530] {logging_mixin.py:109} INFO - [2021-10-03 07:30:17,530] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:30:17,544] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.217 seconds
+[2021-10-03 07:30:48,104] {processor.py:162} INFO - Started process (PID=7877) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:30:48,114] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:30:48,116] {logging_mixin.py:109} INFO - [2021-10-03 07:30:48,115] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:30:48,185] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:30:48,207] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:30:48,215] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:30:48,234] {logging_mixin.py:109} INFO - [2021-10-03 07:30:48,234] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:30:48,250] {logging_mixin.py:109} INFO - [2021-10-03 07:30:48,250] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:30:48,265] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.169 seconds
+[2021-10-03 07:31:18,592] {processor.py:162} INFO - Started process (PID=7945) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:31:18,601] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:31:18,602] {logging_mixin.py:109} INFO - [2021-10-03 07:31:18,602] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:31:18,695] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:31:18,714] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:31:18,724] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:31:18,739] {logging_mixin.py:109} INFO - [2021-10-03 07:31:18,739] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:31:18,756] {logging_mixin.py:109} INFO - [2021-10-03 07:31:18,756] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:31:18,772] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.183 seconds
+[2021-10-03 07:31:48,969] {processor.py:162} INFO - Started process (PID=8003) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:31:48,977] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:31:48,979] {logging_mixin.py:109} INFO - [2021-10-03 07:31:48,979] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:31:49,068] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:31:49,094] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:31:49,108] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:31:49,124] {logging_mixin.py:109} INFO - [2021-10-03 07:31:49,124] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:31:49,154] {logging_mixin.py:109} INFO - [2021-10-03 07:31:49,154] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:31:49,176] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.213 seconds
+[2021-10-03 07:32:19,552] {processor.py:162} INFO - Started process (PID=8071) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:32:19,556] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:32:19,560] {logging_mixin.py:109} INFO - [2021-10-03 07:32:19,560] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:32:19,636] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:32:19,661] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:32:19,670] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:32:19,695] {logging_mixin.py:109} INFO - [2021-10-03 07:32:19,695] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:32:19,714] {logging_mixin.py:109} INFO - [2021-10-03 07:32:19,714] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:32:19,731] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.183 seconds
+[2021-10-03 07:32:50,021] {processor.py:162} INFO - Started process (PID=8128) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:32:50,025] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:32:50,027] {logging_mixin.py:109} INFO - [2021-10-03 07:32:50,027] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:32:50,107] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:32:50,132] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:32:50,146] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:32:50,167] {logging_mixin.py:109} INFO - [2021-10-03 07:32:50,166] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:32:50,188] {logging_mixin.py:109} INFO - [2021-10-03 07:32:50,188] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:32:50,204] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.186 seconds
+[2021-10-03 07:33:20,551] {processor.py:162} INFO - Started process (PID=8183) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:33:20,566] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:33:20,572] {logging_mixin.py:109} INFO - [2021-10-03 07:33:20,571] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:33:20,704] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:33:20,725] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:33:20,755] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:33:20,825] {logging_mixin.py:109} INFO - [2021-10-03 07:33:20,824] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:33:20,855] {logging_mixin.py:109} INFO - [2021-10-03 07:33:20,855] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:33:20,876] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.332 seconds
+[2021-10-03 07:33:51,267] {processor.py:162} INFO - Started process (PID=8251) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:33:51,275] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:33:51,277] {logging_mixin.py:109} INFO - [2021-10-03 07:33:51,276] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:33:51,620] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:33:51,760] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:33:51,871] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:33:51,948] {logging_mixin.py:109} INFO - [2021-10-03 07:33:51,948] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:33:51,989] {logging_mixin.py:109} INFO - [2021-10-03 07:33:51,989] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:33:52,015] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.756 seconds
+[2021-10-03 07:34:22,635] {processor.py:162} INFO - Started process (PID=8307) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:34:22,638] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:34:22,640] {logging_mixin.py:109} INFO - [2021-10-03 07:34:22,639] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:34:22,716] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:34:22,739] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:34:22,755] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:34:22,783] {logging_mixin.py:109} INFO - [2021-10-03 07:34:22,782] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:34:22,807] {logging_mixin.py:109} INFO - [2021-10-03 07:34:22,807] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:34:22,827] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.197 seconds
+[2021-10-03 07:34:53,723] {processor.py:162} INFO - Started process (PID=8364) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:34:53,730] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:34:53,734] {logging_mixin.py:109} INFO - [2021-10-03 07:34:53,734] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:34:53,857] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:34:53,901] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:34:53,922] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:34:53,946] {logging_mixin.py:109} INFO - [2021-10-03 07:34:53,946] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:34:53,975] {logging_mixin.py:109} INFO - [2021-10-03 07:34:53,974] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:34:54,004] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.291 seconds
+[2021-10-03 07:35:24,643] {processor.py:162} INFO - Started process (PID=8432) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:35:24,646] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:35:24,647] {logging_mixin.py:109} INFO - [2021-10-03 07:35:24,647] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:35:24,773] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:35:24,806] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:35:24,851] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:35:24,887] {logging_mixin.py:109} INFO - [2021-10-03 07:35:24,887] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:35:24,927] {logging_mixin.py:109} INFO - [2021-10-03 07:35:24,927] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:35:24,955] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.316 seconds
+[2021-10-03 07:35:55,344] {processor.py:162} INFO - Started process (PID=8487) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:35:55,352] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:35:55,357] {logging_mixin.py:109} INFO - [2021-10-03 07:35:55,356] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:35:55,476] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:35:55,518] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:35:55,534] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:35:55,560] {logging_mixin.py:109} INFO - [2021-10-03 07:35:55,559] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:35:55,582] {logging_mixin.py:109} INFO - [2021-10-03 07:35:55,581] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:35:55,609] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.277 seconds
+[2021-10-03 07:36:25,728] {processor.py:162} INFO - Started process (PID=8561) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:36:25,732] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:36:25,737] {logging_mixin.py:109} INFO - [2021-10-03 07:36:25,736] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:36:25,848] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:36:25,880] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:36:25,895] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:36:25,928] {logging_mixin.py:109} INFO - [2021-10-03 07:36:25,927] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:36:25,960] {logging_mixin.py:109} INFO - [2021-10-03 07:36:25,960] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:36:25,974] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.268 seconds
+[2021-10-03 07:36:56,077] {processor.py:162} INFO - Started process (PID=8621) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:36:56,082] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:36:56,087] {logging_mixin.py:109} INFO - [2021-10-03 07:36:56,086] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:36:56,191] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:36:56,220] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:36:56,232] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:36:56,259] {logging_mixin.py:109} INFO - [2021-10-03 07:36:56,259] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:36:56,277] {logging_mixin.py:109} INFO - [2021-10-03 07:36:56,277] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:36:56,291] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.224 seconds
+[2021-10-03 07:37:12,683] {processor.py:162} INFO - Started process (PID=8652) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:37:12,693] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:37:12,694] {logging_mixin.py:109} INFO - [2021-10-03 07:37:12,694] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:37:12,815] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:37:12,821] {logging_mixin.py:109} INFO - [2021-10-03 07:37:12,819] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/upload_file_to_staging.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/upload_file_to_staging.py", line 206, in <module>
+    determine_integrity >> partition_transaction_files >> upload_files_to_blob >> spur_group() >> end
+NameError: name 'spur_group' is not defined
+[2021-10-03 07:37:12,823] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:37:12,847] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.179 seconds
+[2021-10-03 07:37:38,175] {processor.py:162} INFO - Started process (PID=8702) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:37:38,178] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:37:38,180] {logging_mixin.py:109} INFO - [2021-10-03 07:37:38,180] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:37:38,307] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:37:38,313] {logging_mixin.py:109} INFO - [2021-10-03 07:37:38,311] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/upload_file_to_staging.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/upload_file_to_staging.py", line 209, in <module>
+    determine_integrity >> partition_transaction_files >> upload_files_to_blob >> spur_group() >> end
+NameError: name 'spur_group' is not defined
+[2021-10-03 07:37:38,315] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:37:38,347] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.178 seconds
+[2021-10-03 07:38:08,714] {processor.py:162} INFO - Started process (PID=8768) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:38:08,720] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:38:08,726] {logging_mixin.py:109} INFO - [2021-10-03 07:38:08,726] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:38:09,094] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:38:09,128] {logging_mixin.py:109} INFO - [2021-10-03 07:38:09,121] {dagbag.py:329} ERROR - Failed to import: /opt/airflow/dags/upload_file_to_staging.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 326, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/upload_file_to_staging.py", line 209, in <module>
+    determine_integrity >> partition_transaction_files >> upload_files_to_blob >> spur_group() >> end
+NameError: name 'spur_group' is not defined
+[2021-10-03 07:38:09,132] {processor.py:625} WARNING - No viable dags retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:38:09,203] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.505 seconds
+[2021-10-03 07:38:37,290] {processor.py:162} INFO - Started process (PID=8825) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:38:37,295] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:38:37,297] {logging_mixin.py:109} INFO - [2021-10-03 07:38:37,297] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:38:37,400] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:38:37,430] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:38:37,448] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:38:37,462] {logging_mixin.py:109} INFO - [2021-10-03 07:38:37,462] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:38:37,483] {logging_mixin.py:109} INFO - [2021-10-03 07:38:37,483] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:38:37,512] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.225 seconds
+[2021-10-03 07:39:07,690] {processor.py:162} INFO - Started process (PID=8883) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:39:07,709] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:39:07,716] {logging_mixin.py:109} INFO - [2021-10-03 07:39:07,715] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:39:07,898] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:39:07,922] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:39:07,937] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:39:07,955] {logging_mixin.py:109} INFO - [2021-10-03 07:39:07,955] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:39:07,976] {logging_mixin.py:109} INFO - [2021-10-03 07:39:07,976] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:39:07,993] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.316 seconds
+[2021-10-03 07:39:33,415] {processor.py:162} INFO - Started process (PID=8932) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:39:33,424] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:39:33,426] {logging_mixin.py:109} INFO - [2021-10-03 07:39:33,425] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:39:33,596] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:39:33,623] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:39:33,643] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:39:34,084] {logging_mixin.py:109} INFO - [2021-10-03 07:39:34,084] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:39:34,107] {logging_mixin.py:109} INFO - [2021-10-03 07:39:34,107] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:39:34,135] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.725 seconds
+[2021-10-03 07:40:04,827] {processor.py:162} INFO - Started process (PID=8998) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:40:04,833] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:40:04,836] {logging_mixin.py:109} INFO - [2021-10-03 07:40:04,835] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:40:04,963] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:40:04,990] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:40:05,011] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:40:05,030] {logging_mixin.py:109} INFO - [2021-10-03 07:40:05,030] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:40:05,052] {logging_mixin.py:109} INFO - [2021-10-03 07:40:05,052] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:40:05,067] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.251 seconds
+[2021-10-03 07:40:35,827] {processor.py:162} INFO - Started process (PID=9055) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:40:35,831] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:40:35,832] {logging_mixin.py:109} INFO - [2021-10-03 07:40:35,832] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:40:35,901] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:40:35,927] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:40:35,936] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:40:35,952] {logging_mixin.py:109} INFO - [2021-10-03 07:40:35,951] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:40:35,981] {logging_mixin.py:109} INFO - [2021-10-03 07:40:35,981] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:40:35,993] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.174 seconds
+[2021-10-03 07:41:06,087] {processor.py:162} INFO - Started process (PID=9108) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:41:06,092] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:41:06,098] {logging_mixin.py:109} INFO - [2021-10-03 07:41:06,097] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:41:06,166] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:41:06,186] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:41:06,203] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:41:06,225] {logging_mixin.py:109} INFO - [2021-10-03 07:41:06,224] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:41:06,257] {logging_mixin.py:109} INFO - [2021-10-03 07:41:06,256] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:41:06,276] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.200 seconds
+[2021-10-03 07:41:36,675] {processor.py:162} INFO - Started process (PID=9175) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:41:36,679] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:41:36,680] {logging_mixin.py:109} INFO - [2021-10-03 07:41:36,680] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:41:36,819] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:41:36,850] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:41:36,862] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:41:36,893] {logging_mixin.py:109} INFO - [2021-10-03 07:41:36,893] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:41:36,921] {logging_mixin.py:109} INFO - [2021-10-03 07:41:36,921] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:41:36,942] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.272 seconds
+[2021-10-03 07:42:07,018] {processor.py:162} INFO - Started process (PID=9230) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:42:07,024] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:42:07,029] {logging_mixin.py:109} INFO - [2021-10-03 07:42:07,028] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:42:07,182] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:42:07,212] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:42:07,229] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:42:07,250] {logging_mixin.py:109} INFO - [2021-10-03 07:42:07,250] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:42:07,272] {logging_mixin.py:109} INFO - [2021-10-03 07:42:07,272] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:42:07,287] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.278 seconds
+[2021-10-03 07:42:37,423] {processor.py:162} INFO - Started process (PID=9286) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:42:37,428] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:42:37,430] {logging_mixin.py:109} INFO - [2021-10-03 07:42:37,430] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:42:37,506] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:42:37,531] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:42:37,545] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:42:37,562] {logging_mixin.py:109} INFO - [2021-10-03 07:42:37,562] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:42:37,579] {logging_mixin.py:109} INFO - [2021-10-03 07:42:37,579] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:42:37,591] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.173 seconds
+[2021-10-03 07:43:07,621] {processor.py:162} INFO - Started process (PID=9341) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:43:07,628] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:43:07,630] {logging_mixin.py:109} INFO - [2021-10-03 07:43:07,630] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:43:07,706] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:43:07,732] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:43:07,748] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:43:07,779] {logging_mixin.py:109} INFO - [2021-10-03 07:43:07,779] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:43:07,802] {logging_mixin.py:109} INFO - [2021-10-03 07:43:07,802] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:43:07,825] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.208 seconds
+[2021-10-03 07:43:38,483] {processor.py:162} INFO - Started process (PID=9397) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:43:38,503] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:43:38,526] {logging_mixin.py:109} INFO - [2021-10-03 07:43:38,526] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:43:38,929] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:43:39,004] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:43:39,020] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:43:39,040] {logging_mixin.py:109} INFO - [2021-10-03 07:43:39,040] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:43:39,064] {logging_mixin.py:109} INFO - [2021-10-03 07:43:39,063] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:43:39,084] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.611 seconds
+[2021-10-03 07:44:09,192] {processor.py:162} INFO - Started process (PID=9461) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:44:09,196] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:44:09,198] {logging_mixin.py:109} INFO - [2021-10-03 07:44:09,198] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:44:09,283] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:44:09,326] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:44:09,340] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:44:09,356] {logging_mixin.py:109} INFO - [2021-10-03 07:44:09,356] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:44:09,374] {logging_mixin.py:109} INFO - [2021-10-03 07:44:09,374] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:44:09,390] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.202 seconds
+[2021-10-03 07:44:39,589] {processor.py:162} INFO - Started process (PID=9517) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:44:39,598] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:44:39,601] {logging_mixin.py:109} INFO - [2021-10-03 07:44:39,601] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:44:39,820] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:44:39,848] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:44:39,869] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:44:39,891] {logging_mixin.py:109} INFO - [2021-10-03 07:44:39,891] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:44:39,921] {logging_mixin.py:109} INFO - [2021-10-03 07:44:39,920] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:44:39,937] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.352 seconds
+[2021-10-03 07:45:10,796] {processor.py:162} INFO - Started process (PID=9575) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:45:10,798] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:45:10,799] {logging_mixin.py:109} INFO - [2021-10-03 07:45:10,799] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:45:10,873] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:45:10,900] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:45:10,920] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:45:10,940] {logging_mixin.py:109} INFO - [2021-10-03 07:45:10,940] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:45:10,961] {logging_mixin.py:109} INFO - [2021-10-03 07:45:10,961] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:45:10,978] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.186 seconds
+[2021-10-03 07:45:41,222] {processor.py:162} INFO - Started process (PID=9643) to work on /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:45:41,225] {processor.py:613} INFO - Processing file /opt/airflow/dags/upload_file_to_staging.py for tasks to queue
+[2021-10-03 07:45:41,227] {logging_mixin.py:109} INFO - [2021-10-03 07:45:41,227] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:45:41,298] {logging_mixin.py:109} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py:178 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-10-03 07:45:41,319] {logging_mixin.py:109} INFO - Partition size: 31
+[2021-10-03 07:45:41,345] {processor.py:623} INFO - DAG(s) dict_keys(['monthly_data_enrichment']) retrieved from /opt/airflow/dags/upload_file_to_staging.py
+[2021-10-03 07:45:41,371] {logging_mixin.py:109} INFO - [2021-10-03 07:45:41,371] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:45:41,391] {logging_mixin.py:109} INFO - [2021-10-03 07:45:41,391] {dag.py:2287} INFO - Setting next_dagrun for monthly_data_enrichment to 2021-11-01 00:30:00+00:00
+[2021-10-03 07:45:41,413] {processor.py:170} INFO - Processing /opt/airflow/dags/upload_file_to_staging.py took 0.195 seconds
