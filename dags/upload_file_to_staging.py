@@ -172,7 +172,7 @@ args = {
 
 
 with DAG(
-    dag_id='monthly_data_enrichment',
+    dag_id='monthly_upload_transactions_for_enrichment',
     default_args=args,
     schedule_interval='30 0 1 * *',
     start_date=days_ago(1),

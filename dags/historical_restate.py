@@ -51,26 +51,28 @@ def spun_group(**kwargs):
     index = 0
     for p in file_names:
 
-        task_1 = GCSToBigQueryOperator(
-            task_id = "upload_to_bigquery_" + str(index),
-            bucket = BUCKET_NAME,
-            source_objects = [p],
-            google_cloud_storage_conn_id = GCP_CONN_NAME,
-            bigquery_conn_id = GCP_CONN_NAME,
-            max_bad_records=1000,
-            destination_project_dataset_table = f"{DATASET_NAME}.{TABLE_NAME}",
-            schema_fields=[
-                {'name': 'Date', 'type': 'STRING', 'mode': 'NULLABLE'},
-                {'name': 'Description', 'type': 'STRING', 'mode': 'NULLABLE'},
-                {'name': 'Deposits', 'type': 'STRING', 'mode': 'NULLABLE'},
-                {'name': 'Withdrawls', 'type': 'STRING', 'mode': 'NULLABLE'},
-                {'name': 'Balance', 'type': 'STRING', 'mode': 'NULLABLE'}
-            ],
-            write_disposition = 'WRITE_APPEND',
-        )
+        # Do other validation here
+        if 'transactions' in p:
+            task_1 = GCSToBigQueryOperator(
+                task_id = "upload_to_bigquery_" + str(index),
+                bucket = BUCKET_NAME,
+                source_objects = [p],
+                google_cloud_storage_conn_id = GCP_CONN_NAME,
+                bigquery_conn_id = GCP_CONN_NAME,
+                max_bad_records=1000,
+                destination_project_dataset_table = f"{DATASET_NAME}.{TABLE_NAME}",
+                schema_fields=[
+                    {'name': 'Date', 'type': 'STRING', 'mode': 'NULLABLE'},
+                    {'name': 'Description', 'type': 'STRING', 'mode': 'NULLABLE'},
+                    {'name': 'Deposits', 'type': 'STRING', 'mode': 'NULLABLE'},
+                    {'name': 'Withdrawls', 'type': 'STRING', 'mode': 'NULLABLE'},
+                    {'name': 'Balance', 'type': 'STRING', 'mode': 'NULLABLE'}
+                ],
+                write_disposition = 'WRITE_APPEND',
+            )
 
-        task_list.append(task_1)
-        index = index + 1
+            task_list.append(task_1)
+            index = index + 1
 
         if index > 12:
             break
@@ -78,7 +80,7 @@ def spun_group(**kwargs):
     return task_list
 
 def print_gcs_files(ti):
-    file_names = ti.xcom_pull(task_ids='check_gcs_files', dag_id='monthly_historical_restate', key='return_value')
+    file_names = ti.xcom_pull(task_ids='check_gcs_files', dag_id='monthly_upload_datawarehouse_transactions', key='return_value')
     file_names = [x for x in file_names if 'transaction' in x]
     logging.info('GCS Files: \n' + '\n'.join(file_names))
     val = Variable.set('monthly_dag_gcs_filenames', file_names, serialize_json=True)
@@ -93,7 +95,7 @@ args = {
 
 
 with DAG(
-    dag_id='monthly_historical_restate',
+    dag_id='monthly_upload_datawarehouse_transactions',
     default_args=args,
     schedule_interval='30 1 30 * *',
     start_date=days_ago(1),

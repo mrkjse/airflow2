@@ -1,7 +1,7 @@
 
 """Example DAG demonstrating the usage of the BashOperator."""
 
-from datetime import timedelta
+from datetime import timedelta, datetime
 from pprint import pprint
 import enum
 from math import ceil
@@ -11,6 +11,8 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.dummy import DummyOperator
 from airflow.operators.python import PythonOperator, BranchPythonOperator
+from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
+from airflow.providers.google.cloud.transfers.gcs_to_bigquery import GCSToBigQueryOperator
 from airflow.utils.dates import days_ago
 from airflow.models import Variable
 from airflow.utils.edgemodifier import Label
@@ -21,6 +23,18 @@ class SIZE_UNIT(enum.Enum):
    KB = 2
    MB = 3
    GB = 4
+
+
+PROJECT_ID = 'mark-sample-327500'
+CLUSTER_NAME = 'cluster-e134'
+REGION = 'australia-southeast1'
+ZONE = 'australia-southeast1-c'
+BUCKET = 'dataproc-staging-au-southeast1-488016609135-qh7iyzfd'
+BUCKET_NAME = 'mark-bucket-2021-2'
+GCP_CONN_NAME = 'MarkGCP'
+DATASET_NAME = 'transactions_data'
+TABLE_NAME = 'transactions'
+
 
 def convert_unit(size_in_bytes, unit):
    """ Convert the size from bytes to other units like KB, MB or GB """
@@ -81,64 +95,9 @@ def branch(**kwargs):
     allow = bool(allow)
 
     if allow:
-        return 'activate_gcp_cluster'
+        return 'upload_to_gcs'
     else:
         return 'notify_data_integrity_issue'
-
-def spun_group():
-    partition_size = Variable.get('monthly_dag_partition_size')
-    print('Partition size: {}'.format(partition_size))
-
-    partition_size = int(partition_size)
-
-    # Due to Airflow constraints, we can only spur a maximum of 10 parallel tasks at a time
-    # But with an upgraded configuration, we can definitely spun more tasks to upload all 600 GB
-    # Otherwise, we can further subdivide the DAG to run 10 tasks at a time to overcome this limitation
-    if partition_size > 10:
-        partition_size = 10
-
-    task_list = []
-
-    for p in range(0, partition_size):
-        filename = 'transactions_{}.csv'.format(str(p))
-
-        """
-        
-        This is just a dummy operator.
-        To actually send the data to cloud (ie to GCP Dataproc Cluster HDFS), we could use airflow.providers.google.cloud.operators.dataproc
-        More information provided here: https://airflow.apache.org/docs/apache-airflow-providers-google/stable/_modules/airflow/providers/google/cloud/example_dags/example_dataproc.html
-
-        # [START how_to_cloud_dataproc_hadoop_config]
-        HADOOP_JOB = {
-            "reference": {"project_id": PROJECT_ID},
-            "placement": {"cluster_name": CLUSTER_NAME},
-            "hadoop_job": {
-                "main_jar_file_uri": "file:///usr/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar",
-                "args": ["wordcount", "gs://pub/shakespeare/rose.txt", OUTPUT_PATH],
-            },
-        }
-        # [END how_to_cloud_dataproc_hadoop_config]
-
-        # [START how_to_cloud_dataproc_trigger_workflow_template]
-        trigger_workflow = DataprocInstantiateWorkflowTemplateOperator(
-            task_id="trigger_workflow", region=REGION, project_id=PROJECT_ID, template_id=WORKFLOW_NAME
-        )
-        # [END how_to_cloud_dataproc_trigger_workflow_template]
-
-        hadoop_task = DataprocSubmitJobOperator(
-        task_id="hadoop_task", job=HADOOP_JOB, region=REGION, project_id=PROJECT_ID
-        )
-
-
-        """
-        task_1 = BashOperator(
-            task_id = "update_hive_tables_with_flat_file" + str(p),
-            params = {"filename":filename},
-            bash_command='echo "Uploading {{ params["filename"] }}..."',
-        )
-        task_list.append(task_1)
-    
-    return task_list
 
 args = {
     'owner': 'airflow',
@@ -150,9 +109,9 @@ args = {
 
 
 with DAG(
-    dag_id='upload_daily_transactions',
+    dag_id='daily_upload_datawarehouse_transactions',
     default_args=args,
-    schedule_interval='30 0 * * *',
+    schedule_interval='30 0 1 * *',
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],
@@ -161,12 +120,55 @@ with DAG(
 
     notify_data_integrity_issue = DummyOperator(task_id="notify_data_integrity_issue")
 
-    check_daily_data_integrity = PythonOperator(
-        task_id = 'check_daily_data_integrity',
+    check_transaction_data_integrity = PythonOperator(
+        task_id = 'check_transaction_data_integrity',
         provide_context=True,
         python_callable=check_data_integrity,
-        op_kwargs={'staging_hdfs_location': '/opt/airflow/plugins/'},
+        op_kwargs={'input_location': '/opt/airflow/dags/data/',
+            'input_file': 'bank_transactions.csv'},
     )
+
+    # determine_partition = PythonOperator(
+    #     task_id = 'determine_partition',
+    #     provide_context=True,
+    #     python_callable=partition_this_csv,
+    #     op_kwargs={'input_location': '/opt/airflow/dags/data/',
+    #         'input_file': 'bank_transactions.csv'},
+    # )
+
+    # partition_files = BashOperator(
+    #      task_id="partition_files",
+    #      bash_command= 'cd /opt/airflow/dags/data/ && split -b 9000000 bank_transactions_daily.csv partitions_daily/transactions_daily_',
+    #      params={'input_location': 'plugins',
+    #      'input_file': 'bank_transactions.csv'},
+    #  )
+
+    upload_to_gcs = LocalFilesystemToGCSOperator(
+            task_id = 'upload_to_gcs',
+            src = '/opt/airflow/dags/data/bank_transactions_daily.csv',
+            dst = 'staging_daily/transactions_daily_' + datetime.now().strftime('%Y%m%d'), 
+            bucket = BUCKET_NAME,
+            gcp_conn_id = GCP_CONN_NAME,
+            mime_type = 'text/plain'
+        )
+    
+    upload_to_bigquery = GCSToBigQueryOperator(
+            task_id = "upload_to_bigquery",
+            bucket = BUCKET_NAME,
+            source_objects = ['staging_daily/transactions_daily_' + datetime.now().strftime('%Y%m%d')],
+            google_cloud_storage_conn_id = GCP_CONN_NAME,
+            bigquery_conn_id = GCP_CONN_NAME,
+            max_bad_records=1000,
+            destination_project_dataset_table = f"{DATASET_NAME}.{TABLE_NAME}",
+            schema_fields=[
+                {'name': 'Date', 'type': 'STRING', 'mode': 'NULLABLE'},
+                {'name': 'Description', 'type': 'STRING', 'mode': 'NULLABLE'},
+                {'name': 'Deposits', 'type': 'STRING', 'mode': 'NULLABLE'},
+                {'name': 'Withdrawls', 'type': 'STRING', 'mode': 'NULLABLE'},
+                {'name': 'Balance', 'type': 'STRING', 'mode': 'NULLABLE'}
+            ],
+            write_disposition = 'WRITE_APPEND',
+        )
 
 
     determine_integrity = BranchPythonOperator(
@@ -175,13 +177,7 @@ with DAG(
         provide_context=True,
     )
 
-    activate_gcp_cluster = DummyOperator(
-        task_id = 'activate_gcp_cluster',
-    )
 
-    check_hive_tables = DummyOperator(
-        task_id = 'check_hive_tables',
-    )
 
     start = DummyOperator(
         task_id='start',
@@ -191,9 +187,14 @@ with DAG(
         task_id ='end',
     )
 
-    start >> check_daily_data_integrity >> determine_integrity 
-    determine_integrity  >> activate_gcp_cluster >> check_hive_tables >> spun_group() >> end  
+    check_hdfs_directory = DummyOperator(
+        task_id='check_hdfs_directory'
+    )
+    start >> check_transaction_data_integrity >> determine_integrity
+    determine_integrity  >> upload_to_gcs >> upload_to_bigquery >> end  
     determine_integrity >> notify_data_integrity_issue >> end
+
+
 
 
 
