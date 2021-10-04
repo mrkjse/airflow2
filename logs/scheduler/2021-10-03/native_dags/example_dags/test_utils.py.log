@@ -1126,3 +1126,332 @@
 [2021-10-03 07:45:38,043] {logging_mixin.py:109} INFO - [2021-10-03 07:45:38,043] {dag.py:1834} INFO - Sync 1 DAGs
 [2021-10-03 07:45:38,253] {logging_mixin.py:109} INFO - [2021-10-03 07:45:38,253] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
 [2021-10-03 07:45:38,329] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.696 seconds
+[2021-10-03 07:46:08,440] {processor.py:162} INFO - Started process (PID=9692) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:46:08,446] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:46:08,449] {logging_mixin.py:109} INFO - [2021-10-03 07:46:08,449] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:46:08,495] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:46:08,591] {logging_mixin.py:109} INFO - [2021-10-03 07:46:08,590] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:46:08,631] {logging_mixin.py:109} INFO - [2021-10-03 07:46:08,631] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:46:08,647] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.212 seconds
+[2021-10-03 07:46:39,449] {processor.py:162} INFO - Started process (PID=9747) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:46:39,455] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:46:39,458] {logging_mixin.py:109} INFO - [2021-10-03 07:46:39,457] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:46:39,504] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:46:39,549] {logging_mixin.py:109} INFO - [2021-10-03 07:46:39,549] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:46:39,589] {logging_mixin.py:109} INFO - [2021-10-03 07:46:39,588] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:46:39,609] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.169 seconds
+[2021-10-03 07:47:09,983] {processor.py:162} INFO - Started process (PID=9801) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:47:09,986] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:47:09,988] {logging_mixin.py:109} INFO - [2021-10-03 07:47:09,988] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:47:10,004] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:47:10,031] {logging_mixin.py:109} INFO - [2021-10-03 07:47:10,030] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:47:10,048] {logging_mixin.py:109} INFO - [2021-10-03 07:47:10,048] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:47:10,060] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.082 seconds
+[2021-10-03 07:47:40,835] {processor.py:162} INFO - Started process (PID=9867) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:47:40,838] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:47:40,840] {logging_mixin.py:109} INFO - [2021-10-03 07:47:40,840] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:47:40,867] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:47:40,905] {logging_mixin.py:109} INFO - [2021-10-03 07:47:40,905] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:47:40,924] {logging_mixin.py:109} INFO - [2021-10-03 07:47:40,924] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:47:40,947] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.116 seconds
+[2021-10-03 07:48:11,503] {processor.py:162} INFO - Started process (PID=9922) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:48:11,511] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:48:11,600] {logging_mixin.py:109} INFO - [2021-10-03 07:48:11,599] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:48:12,204] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:48:12,433] {logging_mixin.py:109} INFO - [2021-10-03 07:48:12,432] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:48:12,771] {logging_mixin.py:109} INFO - [2021-10-03 07:48:12,771] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:48:12,941] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 1.652 seconds
+[2021-10-03 07:48:43,649] {processor.py:162} INFO - Started process (PID=9976) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:48:43,651] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:48:43,653] {logging_mixin.py:109} INFO - [2021-10-03 07:48:43,652] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:48:43,670] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:48:43,704] {logging_mixin.py:109} INFO - [2021-10-03 07:48:43,704] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:48:43,728] {logging_mixin.py:109} INFO - [2021-10-03 07:48:43,728] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:48:43,740] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.099 seconds
+[2021-10-03 07:49:14,195] {processor.py:162} INFO - Started process (PID=10045) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:49:14,206] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:49:14,214] {logging_mixin.py:109} INFO - [2021-10-03 07:49:14,214] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:49:14,251] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:49:14,370] {logging_mixin.py:109} INFO - [2021-10-03 07:49:14,369] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:49:14,411] {logging_mixin.py:109} INFO - [2021-10-03 07:49:14,410] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:49:14,427] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.238 seconds
+[2021-10-03 07:49:44,929] {processor.py:162} INFO - Started process (PID=10100) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:49:44,931] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:49:44,936] {logging_mixin.py:109} INFO - [2021-10-03 07:49:44,935] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:49:44,959] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:49:44,995] {logging_mixin.py:109} INFO - [2021-10-03 07:49:44,995] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:49:45,019] {logging_mixin.py:109} INFO - [2021-10-03 07:49:45,019] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:49:45,037] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.112 seconds
+[2021-10-03 07:50:15,328] {processor.py:162} INFO - Started process (PID=10154) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:50:15,332] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:50:15,333] {logging_mixin.py:109} INFO - [2021-10-03 07:50:15,333] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:50:15,349] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:50:15,378] {logging_mixin.py:109} INFO - [2021-10-03 07:50:15,378] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:50:15,402] {logging_mixin.py:109} INFO - [2021-10-03 07:50:15,402] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:50:15,422] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.099 seconds
+[2021-10-03 07:50:46,041] {processor.py:162} INFO - Started process (PID=10210) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:50:46,047] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:50:46,049] {logging_mixin.py:109} INFO - [2021-10-03 07:50:46,049] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:50:46,078] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:50:46,130] {logging_mixin.py:109} INFO - [2021-10-03 07:50:46,130] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:50:46,151] {logging_mixin.py:109} INFO - [2021-10-03 07:50:46,151] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:50:46,169] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.133 seconds
+[2021-10-03 07:51:16,475] {processor.py:162} INFO - Started process (PID=10279) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:51:16,483] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:51:16,485] {logging_mixin.py:109} INFO - [2021-10-03 07:51:16,484] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:51:16,513] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:51:16,561] {logging_mixin.py:109} INFO - [2021-10-03 07:51:16,561] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:51:16,599] {logging_mixin.py:109} INFO - [2021-10-03 07:51:16,599] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:51:16,618] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.147 seconds
+[2021-10-03 07:51:46,940] {processor.py:162} INFO - Started process (PID=10335) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:51:46,951] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:51:46,954] {logging_mixin.py:109} INFO - [2021-10-03 07:51:46,954] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:51:46,972] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:51:47,000] {logging_mixin.py:109} INFO - [2021-10-03 07:51:47,000] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:51:47,017] {logging_mixin.py:109} INFO - [2021-10-03 07:51:47,017] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:51:47,032] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.101 seconds
+[2021-10-03 07:52:17,180] {processor.py:162} INFO - Started process (PID=10401) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:52:17,186] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:52:17,188] {logging_mixin.py:109} INFO - [2021-10-03 07:52:17,188] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:52:17,205] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:52:17,240] {logging_mixin.py:109} INFO - [2021-10-03 07:52:17,240] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:52:17,269] {logging_mixin.py:109} INFO - [2021-10-03 07:52:17,269] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:52:17,301] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.127 seconds
+[2021-10-03 07:52:47,343] {processor.py:162} INFO - Started process (PID=10458) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:52:47,349] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:52:47,357] {logging_mixin.py:109} INFO - [2021-10-03 07:52:47,357] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:52:47,376] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:52:47,401] {logging_mixin.py:109} INFO - [2021-10-03 07:52:47,401] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:52:47,428] {logging_mixin.py:109} INFO - [2021-10-03 07:52:47,428] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:52:47,443] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.107 seconds
+[2021-10-03 07:53:17,838] {processor.py:162} INFO - Started process (PID=10513) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:53:17,842] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:53:17,844] {logging_mixin.py:109} INFO - [2021-10-03 07:53:17,844] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:53:17,861] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:53:17,887] {logging_mixin.py:109} INFO - [2021-10-03 07:53:17,887] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:53:17,908] {logging_mixin.py:109} INFO - [2021-10-03 07:53:17,908] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:53:17,921] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.090 seconds
+[2021-10-03 07:53:48,668] {processor.py:162} INFO - Started process (PID=10583) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:53:48,675] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:53:48,677] {logging_mixin.py:109} INFO - [2021-10-03 07:53:48,676] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:53:48,691] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:53:48,725] {logging_mixin.py:109} INFO - [2021-10-03 07:53:48,725] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:53:48,745] {logging_mixin.py:109} INFO - [2021-10-03 07:53:48,745] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:53:48,761] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.097 seconds
+[2021-10-03 07:54:19,435] {processor.py:162} INFO - Started process (PID=10638) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:54:19,438] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:54:19,441] {logging_mixin.py:109} INFO - [2021-10-03 07:54:19,441] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:54:19,474] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:54:19,522] {logging_mixin.py:109} INFO - [2021-10-03 07:54:19,521] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:54:19,556] {logging_mixin.py:109} INFO - [2021-10-03 07:54:19,556] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:54:19,571] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.148 seconds
+[2021-10-03 07:54:50,290] {processor.py:162} INFO - Started process (PID=10700) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:54:50,298] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:54:50,305] {logging_mixin.py:109} INFO - [2021-10-03 07:54:50,304] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:54:50,339] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:54:50,402] {logging_mixin.py:109} INFO - [2021-10-03 07:54:50,402] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:54:50,455] {logging_mixin.py:109} INFO - [2021-10-03 07:54:50,455] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:54:50,487] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.207 seconds
+[2021-10-03 07:55:21,064] {processor.py:162} INFO - Started process (PID=10760) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:55:21,067] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:55:21,068] {logging_mixin.py:109} INFO - [2021-10-03 07:55:21,068] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:55:21,082] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:55:21,112] {logging_mixin.py:109} INFO - [2021-10-03 07:55:21,112] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:55:21,134] {logging_mixin.py:109} INFO - [2021-10-03 07:55:21,134] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:55:21,155] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.096 seconds
+[2021-10-03 07:55:51,266] {processor.py:162} INFO - Started process (PID=10815) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:55:51,268] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:55:51,270] {logging_mixin.py:109} INFO - [2021-10-03 07:55:51,270] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:55:51,284] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:55:51,310] {logging_mixin.py:109} INFO - [2021-10-03 07:55:51,310] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:55:51,325] {logging_mixin.py:109} INFO - [2021-10-03 07:55:51,325] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:55:51,340] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.078 seconds
+[2021-10-03 07:56:21,902] {processor.py:162} INFO - Started process (PID=10882) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:56:21,909] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:56:21,911] {logging_mixin.py:109} INFO - [2021-10-03 07:56:21,911] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:56:21,933] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:56:21,963] {logging_mixin.py:109} INFO - [2021-10-03 07:56:21,963] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:56:21,981] {logging_mixin.py:109} INFO - [2021-10-03 07:56:21,980] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:56:22,001] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.104 seconds
+[2021-10-03 07:56:52,314] {processor.py:162} INFO - Started process (PID=10935) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:56:52,317] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:56:52,318] {logging_mixin.py:109} INFO - [2021-10-03 07:56:52,318] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:56:52,331] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:56:52,359] {logging_mixin.py:109} INFO - [2021-10-03 07:56:52,359] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:56:52,375] {logging_mixin.py:109} INFO - [2021-10-03 07:56:52,375] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:56:52,409] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.099 seconds
+[2021-10-03 07:57:22,643] {processor.py:162} INFO - Started process (PID=11003) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:57:22,652] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:57:22,653] {logging_mixin.py:109} INFO - [2021-10-03 07:57:22,653] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:57:22,669] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:57:22,697] {logging_mixin.py:109} INFO - [2021-10-03 07:57:22,696] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:57:22,718] {logging_mixin.py:109} INFO - [2021-10-03 07:57:22,718] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:57:22,732] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.093 seconds
+[2021-10-03 07:57:53,199] {processor.py:162} INFO - Started process (PID=11065) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:57:53,202] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:57:53,205] {logging_mixin.py:109} INFO - [2021-10-03 07:57:53,204] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:57:53,221] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:57:53,251] {logging_mixin.py:109} INFO - [2021-10-03 07:57:53,251] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:57:53,273] {logging_mixin.py:109} INFO - [2021-10-03 07:57:53,272] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:57:53,291] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.097 seconds
+[2021-10-03 07:58:25,649] {processor.py:162} INFO - Started process (PID=11122) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:58:25,652] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:58:25,658] {logging_mixin.py:109} INFO - [2021-10-03 07:58:25,658] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:58:25,677] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:58:25,718] {logging_mixin.py:109} INFO - [2021-10-03 07:58:25,718] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:58:25,755] {logging_mixin.py:109} INFO - [2021-10-03 07:58:25,755] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:58:25,783] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.144 seconds
+[2021-10-03 07:58:56,359] {processor.py:162} INFO - Started process (PID=11189) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:58:56,369] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:58:56,372] {logging_mixin.py:109} INFO - [2021-10-03 07:58:56,372] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:58:56,389] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:58:56,444] {logging_mixin.py:109} INFO - [2021-10-03 07:58:56,444] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:58:56,466] {logging_mixin.py:109} INFO - [2021-10-03 07:58:56,465] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:58:56,484] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.131 seconds
+[2021-10-03 07:59:27,393] {processor.py:162} INFO - Started process (PID=11245) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:59:27,397] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:59:27,400] {logging_mixin.py:109} INFO - [2021-10-03 07:59:27,399] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:59:27,425] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:59:27,459] {logging_mixin.py:109} INFO - [2021-10-03 07:59:27,459] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:59:27,490] {logging_mixin.py:109} INFO - [2021-10-03 07:59:27,489] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:59:27,508] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.123 seconds
+[2021-10-03 07:59:57,721] {processor.py:162} INFO - Started process (PID=11312) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:59:57,732] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 07:59:57,736] {logging_mixin.py:109} INFO - [2021-10-03 07:59:57,735] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:59:57,775] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 07:59:57,821] {logging_mixin.py:109} INFO - [2021-10-03 07:59:57,821] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 07:59:57,859] {logging_mixin.py:109} INFO - [2021-10-03 07:59:57,859] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 07:59:57,881] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.172 seconds
+[2021-10-03 08:00:28,600] {processor.py:162} INFO - Started process (PID=11378) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:00:28,607] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:00:28,609] {logging_mixin.py:109} INFO - [2021-10-03 08:00:28,609] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:00:28,640] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:00:28,750] {logging_mixin.py:109} INFO - [2021-10-03 08:00:28,750] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:00:28,780] {logging_mixin.py:109} INFO - [2021-10-03 08:00:28,779] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:00:28,808] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.214 seconds
+[2021-10-03 08:00:59,315] {processor.py:162} INFO - Started process (PID=11434) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:00:59,318] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:00:59,321] {logging_mixin.py:109} INFO - [2021-10-03 08:00:59,320] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:00:59,342] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:00:59,375] {logging_mixin.py:109} INFO - [2021-10-03 08:00:59,374] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:00:59,391] {logging_mixin.py:109} INFO - [2021-10-03 08:00:59,390] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:00:59,402] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.096 seconds
+[2021-10-03 08:01:29,863] {processor.py:162} INFO - Started process (PID=11499) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:01:29,872] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:01:29,876] {logging_mixin.py:109} INFO - [2021-10-03 08:01:29,875] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:01:29,904] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:01:29,942] {logging_mixin.py:109} INFO - [2021-10-03 08:01:29,942] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:01:29,973] {logging_mixin.py:109} INFO - [2021-10-03 08:01:29,972] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:01:29,994] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.140 seconds
+[2021-10-03 08:02:00,314] {processor.py:162} INFO - Started process (PID=11555) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:02:00,317] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:02:00,319] {logging_mixin.py:109} INFO - [2021-10-03 08:02:00,319] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:02:00,341] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:02:00,370] {logging_mixin.py:109} INFO - [2021-10-03 08:02:00,370] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:02:00,399] {logging_mixin.py:109} INFO - [2021-10-03 08:02:00,399] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:02:00,426] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.122 seconds
+[2021-10-03 08:02:30,996] {processor.py:162} INFO - Started process (PID=11612) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:02:30,999] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:02:31,002] {logging_mixin.py:109} INFO - [2021-10-03 08:02:31,001] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:02:31,020] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:02:31,057] {logging_mixin.py:109} INFO - [2021-10-03 08:02:31,057] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:02:31,083] {logging_mixin.py:109} INFO - [2021-10-03 08:02:31,083] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:02:31,096] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.110 seconds
+[2021-10-03 08:03:01,397] {processor.py:162} INFO - Started process (PID=11677) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:03:01,402] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:03:01,407] {logging_mixin.py:109} INFO - [2021-10-03 08:03:01,406] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:03:01,448] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:03:01,512] {logging_mixin.py:109} INFO - [2021-10-03 08:03:01,512] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:03:01,553] {logging_mixin.py:109} INFO - [2021-10-03 08:03:01,553] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:03:01,583] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.200 seconds
+[2021-10-03 08:03:32,003] {processor.py:162} INFO - Started process (PID=11730) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:03:32,007] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:03:32,008] {logging_mixin.py:109} INFO - [2021-10-03 08:03:32,008] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:03:32,024] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:03:32,050] {logging_mixin.py:109} INFO - [2021-10-03 08:03:32,049] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:03:32,065] {logging_mixin.py:109} INFO - [2021-10-03 08:03:32,065] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:03:32,083] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.083 seconds
+[2021-10-03 08:04:02,196] {processor.py:162} INFO - Started process (PID=11787) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:04:02,200] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:04:02,202] {logging_mixin.py:109} INFO - [2021-10-03 08:04:02,202] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:04:02,219] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:04:02,248] {logging_mixin.py:109} INFO - [2021-10-03 08:04:02,248] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:04:02,273] {logging_mixin.py:109} INFO - [2021-10-03 08:04:02,273] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:04:02,297] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.105 seconds
+[2021-10-03 08:04:32,526] {processor.py:162} INFO - Started process (PID=11852) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:04:32,532] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:04:32,539] {logging_mixin.py:109} INFO - [2021-10-03 08:04:32,538] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:04:32,616] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:04:32,724] {logging_mixin.py:109} INFO - [2021-10-03 08:04:32,724] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:04:32,854] {logging_mixin.py:109} INFO - [2021-10-03 08:04:32,853] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:04:32,903] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.395 seconds
+[2021-10-03 08:05:03,514] {processor.py:162} INFO - Started process (PID=11908) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:05:03,519] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:05:03,521] {logging_mixin.py:109} INFO - [2021-10-03 08:05:03,521] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:05:03,543] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:05:03,580] {logging_mixin.py:109} INFO - [2021-10-03 08:05:03,580] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:05:03,605] {logging_mixin.py:109} INFO - [2021-10-03 08:05:03,605] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:05:03,639] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.132 seconds
+[2021-10-03 08:05:34,021] {processor.py:162} INFO - Started process (PID=11976) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:05:34,023] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:05:34,025] {logging_mixin.py:109} INFO - [2021-10-03 08:05:34,025] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:05:34,044] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:05:34,069] {logging_mixin.py:109} INFO - [2021-10-03 08:05:34,069] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:05:34,086] {logging_mixin.py:109} INFO - [2021-10-03 08:05:34,086] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:05:34,102] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.085 seconds
+[2021-10-03 08:06:04,279] {processor.py:162} INFO - Started process (PID=12033) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:06:04,281] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:06:04,284] {logging_mixin.py:109} INFO - [2021-10-03 08:06:04,283] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:06:04,305] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:06:04,341] {logging_mixin.py:109} INFO - [2021-10-03 08:06:04,341] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:06:04,373] {logging_mixin.py:109} INFO - [2021-10-03 08:06:04,373] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:06:04,393] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.119 seconds
+[2021-10-03 08:06:34,913] {processor.py:162} INFO - Started process (PID=12097) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:06:34,916] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:06:34,917] {logging_mixin.py:109} INFO - [2021-10-03 08:06:34,917] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:06:34,931] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:06:34,975] {logging_mixin.py:109} INFO - [2021-10-03 08:06:34,975] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:06:34,991] {logging_mixin.py:109} INFO - [2021-10-03 08:06:34,991] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:06:35,007] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.100 seconds
+[2021-10-03 08:07:05,096] {processor.py:162} INFO - Started process (PID=12151) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:07:05,101] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:07:05,105] {logging_mixin.py:109} INFO - [2021-10-03 08:07:05,104] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:07:05,136] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:07:05,182] {logging_mixin.py:109} INFO - [2021-10-03 08:07:05,182] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:07:05,198] {logging_mixin.py:109} INFO - [2021-10-03 08:07:05,198] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:07:05,214] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.131 seconds
+[2021-10-03 08:07:35,311] {processor.py:162} INFO - Started process (PID=12220) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:07:35,313] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:07:35,314] {logging_mixin.py:109} INFO - [2021-10-03 08:07:35,314] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:07:35,327] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:07:35,367] {logging_mixin.py:109} INFO - [2021-10-03 08:07:35,366] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:07:35,385] {logging_mixin.py:109} INFO - [2021-10-03 08:07:35,385] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:07:35,401] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.096 seconds
+[2021-10-03 08:08:05,764] {processor.py:162} INFO - Started process (PID=12275) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:08:05,768] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:08:05,770] {logging_mixin.py:109} INFO - [2021-10-03 08:08:05,769] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:08:05,794] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:08:05,835] {logging_mixin.py:109} INFO - [2021-10-03 08:08:05,834] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:08:05,865] {logging_mixin.py:109} INFO - [2021-10-03 08:08:05,865] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:08:05,894] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.134 seconds
+[2021-10-03 08:08:36,430] {processor.py:162} INFO - Started process (PID=12343) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:08:36,448] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:08:36,454] {logging_mixin.py:109} INFO - [2021-10-03 08:08:36,453] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:08:36,510] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:08:36,566] {logging_mixin.py:109} INFO - [2021-10-03 08:08:36,565] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:08:36,604] {logging_mixin.py:109} INFO - [2021-10-03 08:08:36,604] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:08:36,631] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.238 seconds
+[2021-10-03 08:09:08,592] {processor.py:162} INFO - Started process (PID=12399) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:09:08,613] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:09:08,652] {logging_mixin.py:109} INFO - [2021-10-03 08:09:08,652] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:09:08,820] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:09:09,066] {logging_mixin.py:109} INFO - [2021-10-03 08:09:09,065] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:09:09,093] {logging_mixin.py:109} INFO - [2021-10-03 08:09:09,093] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:09:09,135] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.723 seconds
+[2021-10-03 08:09:39,557] {processor.py:162} INFO - Started process (PID=12453) to work on /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:09:39,559] {processor.py:613} INFO - Processing file /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py for tasks to queue
+[2021-10-03 08:09:39,561] {logging_mixin.py:109} INFO - [2021-10-03 08:09:39,561] {dagbag.py:496} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:09:39,579] {processor.py:623} INFO - DAG(s) dict_keys(['test_utils']) retrieved from /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+[2021-10-03 08:09:39,605] {logging_mixin.py:109} INFO - [2021-10-03 08:09:39,605] {dag.py:1834} INFO - Sync 1 DAGs
+[2021-10-03 08:09:39,623] {logging_mixin.py:109} INFO - [2021-10-03 08:09:39,622] {dag.py:2287} INFO - Setting next_dagrun for test_utils to None
+[2021-10-03 08:09:39,637] {processor.py:170} INFO - Processing /home/airflow/.local/lib/python3.6/site-packages/airflow/example_dags/test_utils.py took 0.084 seconds

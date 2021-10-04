@@ -2,6 +2,7 @@
 """Example DAG demonstrating the usage of the BashOperator."""
 
 from datetime import timedelta
+from datetime import datetime
 from pprint import pprint
 import enum
 from math import ceil
@@ -11,6 +12,7 @@ from airflow import DAG
 from airflow.operators.bash import BashOperator
 from airflow.operators.dummy import DummyOperator
 from airflow.operators.python import PythonOperator, BranchPythonOperator
+from airflow.providers.google.cloud.transfers.local_to_gcs import LocalFilesystemToGCSOperator
 from airflow.utils.dates import days_ago
 from airflow.models import Variable
 from airflow.utils.edgemodifier import Label
@@ -21,6 +23,16 @@ class SIZE_UNIT(enum.Enum):
    KB = 2
    MB = 3
    GB = 4
+
+
+PROJECT_ID = 'mark-sample-327500'
+CLUSTER_NAME = 'cluster-e134'
+REGION = 'australia-southeast1'
+ZONE = 'australia-southeast1-c'
+BUCKET = 'dataproc-staging-au-southeast1-488016609135-qh7iyzfd'
+BUCKET_NAME = 'mark-bucket-2021-2'
+GCP_CONN_NAME = 'MarkGCP'
+
 
 def convert_unit(size_in_bytes, unit):
    """ Convert the size from bytes to other units like KB, MB or GB"""
@@ -91,11 +103,9 @@ def partition_this_csv(ti, **kwargs):
     if os.path.exists(filename):
 
         partition_size = get_file_size(filename, SIZE_UNIT.MB)
-        partition_size = ceil(partition_size/1.25) # assuming this is 30 Gb
+        partition_size = ceil(partition_size/4) # assuming this is 30 Gb
 
         print('This function will partition {} into {} files.'.format(filename, str(partition_size)))
-
-        return_val = 'Partition success! Files saved to: {}'.format(filename)
 
     else:
         raise ValueError('Invalid filename. Please check input_location and input_file.')
@@ -109,13 +119,19 @@ def branch(**kwargs):
     print('Partition size: {}'.format(partition_size))
 
     partition_size = int(partition_size)
+    print(partition_size)
 
     if partition_size > 5:
-        return 'partition_transaction_files'
+        return 'partition_files'
     else:
         return 'notify_data_integrity_issue'
 
 def spun_group():
+    """
+    
+    This function will upload the partitions into Google Cloud Storage.
+
+    """
     partition_size = Variable.get('monthly_dag_partition_size')
     print('Partition size: {}'.format(partition_size))
 
@@ -129,18 +145,19 @@ def spun_group():
 
     task_list = []
 
-    for p in range(0, partition_size):
-        filename = 'transactions_{}.csv'.format(str(p))
-        # task_1 = BashOperator(
-        #     task_id = "upload_file_to_blob_" + str(p),
-        #     params = {"filename":filename},
-        #     bash_command='echo "Uploading {{ params["filename"] }}..."',
-        # )
-        task_1 = BashOperator(
-            task_id = "upload_file_to_hdfs_" + str(p),
-            params = {"filename":filename},
-            bash_command='echo "Uploading {{ params["filename"] }}..."',
+    files_to_upload = os.listdir('/opt/airflow/dags/data/partitions')
+
+    for p in files_to_upload[:partition_size]:
+
+        task_1 = LocalFilesystemToGCSOperator(
+            task_id = 'upload_to_gcs_' + p,
+            src = '/opt/airflow/dags/data/partitions/' + p,
+            dst = 'staging/' + p + '_' + datetime.now().strftime('%Y%m%d'), 
+            bucket = BUCKET_NAME,
+            gcp_conn_id = GCP_CONN_NAME,
+            mime_type = 'text/plain'
         )
+
         task_list.append(task_1)
     
     return task_list
@@ -170,29 +187,32 @@ with DAG(
         task_id = 'check_transaction_data_integrity',
         provide_context=True,
         python_callable=check_data_integrity,
-        op_kwargs={'input_location': '/opt/airflow/plugins/',
+        op_kwargs={'input_location': '/opt/airflow/dags/data/',
             'input_file': 'bank_transactions.csv'},
     )
 
-    partition_transaction_files = PythonOperator(
-        task_id = 'partition_transaction_files',
+    determine_partition = PythonOperator(
+        task_id = 'determine_partition',
         provide_context=True,
         python_callable=partition_this_csv,
-        op_kwargs={'input_location': '/opt/airflow/plugins/',
+        op_kwargs={'input_location': '/opt/airflow/dags/data/',
             'input_file': 'bank_transactions.csv'},
     )
 
-    # check_partitioned_files = BashOperator(
-    #     task_id="check_partitioned_files",
-    #     bash_command='echo "\'$message\'"',
-    #     env={'message': 'Owner: {{ params["owner"] }} \n Message: {{ ti.xcom_pull(key="return_val", task_ids=["partition_csv_files"])|string }} \n Number of Files to Send: {{ ti.xcom_pull(key="partition_size", task_ids=["partition_csv_files"])|int }}'},
-    # )
+    partition_files = BashOperator(
+         task_id="partition_files",
+         bash_command= 'cd /opt/airflow/dags/data/ && split -b 4000000 bank_transactions.csv partitions/transactions_',
+         params={'input_location': 'plugins',
+         'input_file': 'bank_transactions.csv'},
+     )
 
     determine_integrity = BranchPythonOperator(
         task_id = 'determine_integrity',
         python_callable = branch,
         provide_context=True,
     )
+
+
 
     start = DummyOperator(
         task_id='start',
@@ -205,8 +225,8 @@ with DAG(
     check_hdfs_directory = DummyOperator(
         task_id='check_hdfs_directory'
     )
-    start >> check_transaction_data_integrity >> determine_integrity 
-    determine_integrity >> partition_transaction_files >> check_hdfs_directory >> spun_group() >> end  
+    start >> check_transaction_data_integrity >> determine_partition >> determine_integrity
+    determine_integrity  >> partition_files >> spun_group() >> end  
     determine_integrity >> notify_data_integrity_issue >> end
 
 

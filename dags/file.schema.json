@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "NULLABLE",
+    "name": "Date",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Description",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Deposits",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Withdrawls",
+    "type": "STRING"
+  },
+  {
+    "mode": "NULLABLE",
+    "name": "Balance",
+    "type": "STRING"
+  }
+]
