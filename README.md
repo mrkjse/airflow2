@@ -54,7 +54,7 @@ This DAG is for transactions that do not require merchant details. The transacti
 
 ![DAG 1](images/daily_upload.png)
 
-In this solution, the DAG attempts to do some data and metadata checks before performing the actual job of uploading the file into the cloud. Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered. 
+In this solution, the DAG attempts to do some data and metadata checks before performing the actual job of uploading the file into the cloud.* Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered. 
 
 ![DAG 1](images/daily_gcs.png)
 
@@ -70,7 +70,7 @@ This DAG transfers the historical transaction data into a **Google Cloud Storage
 
 ![DAG 2](images/monthly_enrichment_2.png)
 
-First, it will do some data and metadata integrity checks, like comparing the parameters, analysing source data shape, schema, etc. before proceeding with the rest of the task. The transactions are assumed to be **flat files** stored in an **on-prem server**.
+First, it will do some data and metadata integrity checks, like comparing the parameters, analysing source data shape, schema, etc. before proceeding with the rest of the task.* The transactions are assumed to be **flat files** stored in an **on-prem server**.
 
 Since the data is huge, we partition the data into several chunks (using UNIX `split` command) before uploading it into the **Google Cloud Storage**. Airflow allows you to *dynamically implement tasks*, so the `upload_to_gcs_*` task is actually dependent on the number of chunks that the `partition_files` task produces. 
 
@@ -119,7 +119,7 @@ Prerequisites: You should have Docker and Python installed on your machine.
 Due to time and resource constraints, there were some shortcuts implemented in this solution:
 
 - The synthetic dataset is not 600 GB but around 40 MB, to allow me to develop the solution much quicker.
-- There are lax data integrity checks for now; ie the solution will only demo a ~happy path~, the connection info are also stored inside the repo for brevity, and the credentials are also in code.
+- There are lax data integrity checks for now; ie the solution will only demo a ~happy path~, the connection info are also stored inside the repo for brevity, and the credentials are also in code. (The (*) denotes that this logic is to be developed)
 - The solution does not feature data period checks; ie it currently lacks checks if the transactions are from 2 years or 21 days from now. It is assumed it will be done in the data integrity task.
 - The IAM roles are also relaxed; ie this solution assumes the DAGs have admin access to all its required storage/repos.
 - The data is made up of independent transactions (even though by nature rows are actually dependent to each other), this means we could uploaded the file into the cloud in parallel. 
@@ -144,7 +144,7 @@ I used **Google Bigquery** as the cloud data warehouse. Bigquery is tailored for
 
 Here are some of the issues we may encounter:
 
-1. **The source file is corrupted/there are issues with the data** - This can be mitigated by Airflow. The dependencies in a DAG ensures jobs won't go to the next step unless the previous step is successful. It also  shows a lot of information for every job runs, like the execution logs, outputs, and duration.
+1. **The source file is corrupted/there are issues with the data** - This can be mitigated by Airflow. The dependencies in a DAG ensure jobs won't go to the next step unless the previous step is successful. It also  shows a lot of information for every job runs, like the execution logs, outputs, and duration.
 2. **Jobs are taking too long to execute/stuck** - Airflow features a robust set of interfaces to diagnose and determine any bottlenecks in the job.
 3. **Uploading data to cloud fails/network connectivity is spottty** - Allowing Airflow to be hosted in any PaaS like GCP Cloud Composes or in AWS Managed Workflows mitigates any infrastructure or network issues.
 
