@@ -54,7 +54,7 @@ This DAG is for transactions that do not require merchant details. The transacti
 
 ![DAG 1](images/daily_upload.png)
 
-In this example, the DAG attempts to do some data and metada checks before performing the actual job of uploading the file into the cloud. Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered. 
+In this solution, the DAG attempts to do some data and metadata checks before performing the actual job of uploading the file into the cloud. Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered. 
 
 ![DAG 1](images/daily_gcs.png)
 
