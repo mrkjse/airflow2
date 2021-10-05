@@ -138,8 +138,8 @@ I used **Google Bigquery** as the cloud data warehouse. Bigquery is tailored for
 
 Here are some of the issues we may encounter:
 
-1. **The source file is corrupted/there are issues with the data** - This can be mitigated by Airflow. Due to the DAG structure, jobs won't go to the next step unless the previous step is successful. It also allows you to a lot of diagnostics every job runs.
-2. **Jobs are taking too long to execute/stuck** - Airflow features a robust metadata interfaces to be able to diagnose any bottlenecks in the job.
+1. **The source file is corrupted/there are issues with the data** - This can be mitigated by Airflow. The dependencies in a DAG ensures jobs won't go to the next step unless the previous step is successful. It also  shows a lot of information for every job runs, like the execution logs, outputs, and duration.
+2. **Jobs are taking too long to execute/stuck** - Airflow features a robust set of interfaces to diagnose and determine any bottlenecks in the job.
 3. **Uploading data to cloud fails/network connectivity is spottty** - Allowing Airflow to be hosted in any PaaS like GCP Cloud Composes or in AWS Managed Workflows mitigates any infrastructure or network issues.
 
 ## Demo
