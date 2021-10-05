@@ -136,7 +136,7 @@ I used **Google Bigquery** as the cloud data warehouse. Bigquery is tailored for
 
 **Daily Problems/Issues**
 
-Some of the issues that we may encounter is:
+Here are some of the issues we may encounter:
 
 1. **The source file is corrupted, there are issues with metadata** - This can be mitigated by Airflow. Due to the DAG structure, jobs won't go to the next step unless the previous step is successful.
 2. **Jobs are taking too long to execute/stuck** - Airflow features a robust metadata interfaces to be able to diagnose any bottlenecks in the job.
