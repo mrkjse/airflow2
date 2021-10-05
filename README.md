@@ -126,7 +126,7 @@ Due to time and resource constraints, there were some shortcuts implemented in t
 
 ## Considerations
 
-**Tools and Storage Choices**
+**Tools and Storage Used**
 
 I used **Apache Airflow** to setup the ETL pipelines. **Airflow** is a job scheduler that runs a collection of tasks with defined dependencies. Workflows (or jobs) are written as code of Directed Acyclic Graph (DAG), which are executed from left to right. It is also developed in Python, so third-party support is plenty and is easily extensible. 
 
