@@ -64,7 +64,7 @@ The source data is in the repo: `dags/data/bank_transactions_daily.csv`, and the
 ### monthly_upload_transactions_for_enrichment
 <br/>
 
-This DAG transfers the historical transaction data into a **Google Cloud Storage bucket** for enrichment.
+This DAG transfers the historical transaction data into a **Google Cloud Storage bucket** for enrichment by other departments.
 
 ![DAG 2](images/monthly_enrichment_1.png)
 
@@ -78,12 +78,15 @@ In this DAG, the source flat file **bank_transactions.csv** is divided into **10
 
 ![DAG 2](images/partitions.png)
 
-The partition is based on **size**. In this task, we partition the dataset into **4 MB** chunks, for demonstration.
+The partition is based on **size**. We partition the dataset into **4 MB** chunks, for demonstration.
 
 We then upload these files into GCS, with appended dates to the filename so we know when were they uploaded (altho the GCS metadata could easily tell us that too).
 
 ![DAG 2](images/GCS_result.png)
 
+From here, it is assumed that other departments should be able to access the dataset to enrich the transactions.
+
+After 30 days, the data in this GCS bucket will then be uploaded into a Google Bigquery data warehouse.
 
 ### monthly_upload_datawarehouse_transactions
 
@@ -96,7 +99,7 @@ We assume the *enrichment process* will get the data from GCS, add merchant deta
 Therefore, we consider the data *enriched* after end of the month, whatever the state of the data is.
 
 
-Once the enrichment process is over, the DAG will check for the existence of the files in the GCS directory where *enriched* datasets is.
+Once the enrichment process is over, the DAG will check for the existence of the files in the GCS directory where *enriched* datasets are.
 Once verified, it will dynamically spun `upload_to_bigquery_*` tasks to transfer the data into Google Bigquery, depending on the number of files in the GCS directory.
 
 ![DAG 3](images/bigquery_result.png)
