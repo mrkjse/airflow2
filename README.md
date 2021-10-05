@@ -54,7 +54,7 @@ This DAG is for transactions that do not require merchant details. The transacti
 
 ![DAG 1](images/daily_upload.png)
 
-In this solution, the DAG attempts to do some data and metadata checks before performing the actual job of uploading the file into the cloud.* Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered. 
+In this solution, the DAG attempts to do some data and metadata checks before performing the actual job of uploading the file into the cloud.* Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered.* 
 
 ![DAG 1](images/daily_gcs.png)
 
@@ -119,7 +119,7 @@ Prerequisites: You should have Docker and Python installed on your machine.
 Due to time and resource constraints, there were some shortcuts implemented in this solution:
 
 - The synthetic dataset is not 600 GB but around 40 MB, to allow me to develop the solution much quicker.
-- There are lax data integrity checks for now; ie the solution will only demo a ~happy path~, the connection info are also stored inside the repo for brevity, and the credentials are also in code. (The (*) denotes that this logic is to be developed)
+- There are lax data integrity checks for now; ie the solution will only demo a ~happy path~, the connection info are also stored inside the repo for brevity, and the credentials are also in code. (The (*) denotes that the logic/part is to be developed)
 - The solution does not feature data period checks; ie it currently lacks checks if the transactions are from 2 years or 21 days from now. It is assumed it will be done in the data integrity task.
 - The IAM roles are also relaxed; ie this solution assumes the DAGs have admin access to all its required storage/repos.
 - The data is made up of independent transactions (even though by nature rows are actually dependent to each other), this means we could uploaded the file into the cloud in parallel. 
