@@ -76,7 +76,7 @@ First, it will do some data and metadata integrity checks, like comparing the pa
 
 Since the data is huge, we partition the data into several chunks (using UNIX `split` command) before uploading it into the Google Cloud Storage. Airflow allows you to dynamically implement tasks, so the `upload_to_gcs_*` task is actually dependent on the number of chunks that the `partition_files` task produces. 
 
-In this example, the source flat file **bank_transactions.csv** is divided into 10 partitions:
+In this DAG, the source flat file **bank_transactions.csv** is divided into 10 partitions:
 
 ![DAG 2](images/partitions.png)
 
