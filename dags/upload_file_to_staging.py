@@ -222,9 +222,7 @@ with DAG(
         task_id ='end',
     )
 
-    check_hdfs_directory = DummyOperator(
-        task_id='check_hdfs_directory'
-    )
+
     start >> check_transaction_data_integrity >> determine_partition >> determine_integrity
     determine_integrity  >> partition_files >> spun_group() >> end  
     determine_integrity >> notify_data_integrity_issue >> end

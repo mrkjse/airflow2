@@ -111,7 +111,7 @@ args = {
 with DAG(
     dag_id='daily_upload_datawarehouse_transactions',
     default_args=args,
-    schedule_interval='30 0 1 * *',
+    schedule_interval='30 4 * * *',
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],
@@ -187,9 +187,7 @@ with DAG(
         task_id ='end',
     )
 
-    check_hdfs_directory = DummyOperator(
-        task_id='check_hdfs_directory'
-    )
+
     start >> check_transaction_data_integrity >> determine_integrity
     determine_integrity  >> upload_to_gcs >> upload_to_bigquery >> end  
     determine_integrity >> notify_data_integrity_issue >> end

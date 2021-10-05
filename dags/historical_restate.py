@@ -97,7 +97,7 @@ args = {
 with DAG(
     dag_id='monthly_upload_datawarehouse_transactions',
     default_args=args,
-    schedule_interval='30 1 30 * *',
+    schedule_interval='30 1 L * *',
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],
