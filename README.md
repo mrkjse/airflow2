@@ -132,7 +132,7 @@ I used **Apache Airflow** to setup the ETL pipelines. **Airflow** is a job sched
 
 I used **Google Cloud Storage** as a staging repository for the files because it can store any kind of data durably and securely. It also allows us to access the files via API and integrate it not only with other GCP services (like **Dataproc** and **Bigquery**) but also third-party ETL tools like **Apache Airflow**.
 
-I used **Bigquery** as the cloud data warehouse. Bigquery is tailored for analysing big data, where we need to perform a lot of ad-hoc reads to the dataset. It's fast and is easy to integrate with a lot of data engineering tools because of its extensive REST API. In some cases, it allows you to run complex analytical SQL-based queries under large sets of data up to 50x faster than traditional databases hosted on-prem.
+I used **Google Bigquery** as the cloud data warehouse. Bigquery is tailored for analysing big data, where we need to perform a lot of ad-hoc reads to the dataset with very large volumes. It's fast and easy to integrate with a lot of data engineering tools because of its extensive REST API. In some cases, it allows you to run complex analytical SQL-based queries under large sets of data up to 50x faster than traditional databases hosted on-prem.
 
 **Daily Problems/Issues**
 
