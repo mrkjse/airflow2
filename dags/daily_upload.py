@@ -128,21 +128,6 @@ with DAG(
             'input_file': 'bank_transactions.csv'},
     )
 
-    # determine_partition = PythonOperator(
-    #     task_id = 'determine_partition',
-    #     provide_context=True,
-    #     python_callable=partition_this_csv,
-    #     op_kwargs={'input_location': '/opt/airflow/dags/data/',
-    #         'input_file': 'bank_transactions.csv'},
-    # )
-
-    # partition_files = BashOperator(
-    #      task_id="partition_files",
-    #      bash_command= 'cd /opt/airflow/dags/data/ && split -b 9000000 bank_transactions_daily.csv partitions_daily/transactions_daily_',
-    #      params={'input_location': 'plugins',
-    #      'input_file': 'bank_transactions.csv'},
-    #  )
-
     upload_to_gcs = LocalFilesystemToGCSOperator(
             task_id = 'upload_to_gcs',
             src = '/opt/airflow/dags/data/bank_transactions_daily.csv',

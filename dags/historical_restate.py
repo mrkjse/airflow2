@@ -118,14 +118,6 @@ with DAG(
         python_callable=print_gcs_files,
     )
 
-    # activate_gcp_cluster = DummyOperator(
-    #     task_id = 'activate_gcp_cluster',
-    # )
-
-    # check_hive_tables = DummyOperator(
-    #     task_id = 'check_hive_tables',
-    # )
-
     start = DummyOperator(
         task_id='start',
     )
