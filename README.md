@@ -49,8 +49,8 @@ Let's check each DAG one by one.
 
 ### daily_upload_datawarehouse_transactions
 <br/>
-<br/>
-This DAG is for transactions that do not require merchant details. The transactions are assumed to be flat files stored in an on-prem server, which is directly uploaded to the cloud data warehouse. The cloud data warehouse is assumed to be a Google Bigquery dataset.
+
+This DAG is for transactions that do not require merchant details. The transactions are assumed to be **flat files** stored in an **on-prem server**, which is directly uploaded to the cloud data warehouse. The cloud data warehouse is assumed to be a **Google Bigquery dataset**.
 
 ![DAG 1](images/daily_upload.png)
 
@@ -58,25 +58,21 @@ In this example, the DAG attempts to do some data and metada checks before perfo
 
 The source data is in the repo: `dags/data/bank_transactions_daily.csv`, and the final transaction is saved into `transactions_data.transactions` Bigquery table. 
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
 
 ### monthly_upload_transactions_for_enrichment
 <br/>
-<br/>
-This DAG transfers the historical transaction data into a Google Cloud Storage bucket for enrichment.
+
+This DAG transfers the historical transaction data into a **Google Cloud Storage bucket** for enrichment.
 
 ![DAG 2](images/monthly_enrichment_1.png)
 
 ![DAG 2](images/monthly_enrichment_2.png)
 
-First, it will do some data and metadata integrity checks, like comparing the parameters, analysing source data shape, schema, etc. before proceeding with the rest of the task. The transactions are assumed to be flat files stored in an on-prem server.
+First, it will do some data and metadata integrity checks, like comparing the parameters, analysing source data shape, schema, etc. before proceeding with the rest of the task. The transactions are assumed to be **flat files** stored in an **on-prem server**.
 
-Since the data is huge, we partition the data into several chunks (using UNIX `split` command) before uploading it into the Google Cloud Storage. Airflow allows you to dynamically implement tasks, so the `upload_to_gcs_*` task is actually dependent on the number of chunks that the `partition_files` task produces. 
+Since the data is huge, we partition the data into several chunks (using UNIX `split` command) before uploading it into the **Google Cloud Storage**. Airflow allows you to *dynamically implement tasks*, so the `upload_to_gcs_*` task is actually dependent on the number of chunks that the `partition_files` task produces. 
 
-In this DAG, the source flat file **bank_transactions.csv** is divided into 10 partitions:
+In this DAG, the source flat file **bank_transactions.csv** is divided into **10 partitions**:
 
 ![DAG 2](images/partitions.png)
 
@@ -89,12 +85,12 @@ We then upload these files into GCS, with appended dates to the filename so we k
 
 ### monthly_upload_datawarehouse_transactions
 
-This DAG uploads the enriched dataset from Google Cloud Storage into the Google Bigquery datawarehouse.
+This DAG uploads the enriched dataset from **Google Cloud Storage** into the **Google Bigquery** data warehouse.
 
 ![DAG 3](images/monthly_restate_1.png)
 ![DAG 3](images/monthly_restate_2.png)
 
-We assume the enrichment process will get the data from GCS, add merchant details, and upload it back into GCS.
+We assume the *enrichment process* will get the data from GCS, add merchant details, and upload it back into GCS.
 Therefore, we consider the data *enriched* after end of the month, whatever the state of the data is.
 
 Once the enrichment process is over, the DAG will check for the existence of the files in the GCS directory where *enriched* datasets is.
@@ -134,7 +130,7 @@ Due to time and resource constraints, there were some shortcuts implemented in t
 
 I used **Apache Airflow** to setup the ETL pipelines. **Airflow** is a data-orchestration tool created by Airbnb to manage and schedule data workflows. Airflow is a job scheduler that runs a collection of tasks with defined dependencies. Workflows (or jobs) are written as code of Directed Acyclic Graph (DAG), which are executed from left to right. It is also developed in Python, so third-party support is plenty and is easily extensible. 
 
-I used **Google Cloud Storage** as a staging repository for the files because it is capable of storing any kind of data durably and securely. It also allows us to access the files via API and integrate it not only with other GCP services (like **Dataproc** and **Bigquery**) but also third-party ETL tools like **Apache Airflow**.
+I used **Google Cloud Storage** as a staging repository for the files because it can store any kind of data durably and securely. It also allows us to access the files via API and integrate it not only with other GCP services (like **Dataproc** and **Bigquery**) but also third-party ETL tools like **Apache Airflow**.
 
 I used **Bigquery** as the cloud datawarehouse. Bigquery is tailored for analysing big data, where we need to perform a lot of ad-hoc reads to the dataset. It's fast and is easy to integrate with a lot of data engineering tools because of its extensive REST API. In some cases, it allows you to run complex analytical SQL-based queries under large sets of data up to 50x faster than traditional databases hosted on-prem.
 
