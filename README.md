@@ -72,7 +72,7 @@ This DAG transfers the historical transaction data into a Google Cloud Storage b
 
 ![DAG 2](images/monthly_enrichment_2.png)
 
-First, it will do some data and metadata integrity checks, like comparing the parameters, analysing source data shape, etc. before proceeding with the rest of the task. The transactions are assumed to be flat files stored in an on-prem server.
+First, it will do some data and metadata integrity checks, like comparing the parameters, analysing source data shape, schema, etc. before proceeding with the rest of the task. The transactions are assumed to be flat files stored in an on-prem server.
 
 Since the data is huge, we partition the data into several chunks (using UNIX `split` command) before uploading it into the Google Cloud Storage. Airflow allows you to dynamically implement tasks, so the `upload_to_gcs_*` task is actually dependent on the number of chunks that the `partition_files` task produces. 
 
@@ -80,7 +80,7 @@ In this example, the source flat file **bank_transactions.csv** is divided into 
 
 ![DAG 2](images/partitions.png)
 
-The partition is based on **size**. In this task, we try to partition the dataset into **4 MB** chunks, for demonstration.
+The partition is based on **size**. In this task, we partition the dataset into **4 MB** chunks, for demonstration.
 
 We then upload these files into GCS, with appended dates to the filename so we know when were they uploaded (altho the GCS metadata could easily tell us that too).
 
@@ -97,7 +97,7 @@ This DAG uploads the enriched dataset from Google Cloud Storage into the Google 
 We assume the enrichment process will get the data from GCS, add merchant details, and upload it back into GCS.
 Therefore, we consider the data *enriched* after end of the month, whatever the state of the data is.
 
-Once the enrichment process is over, the DAG will check for the existence of the files in the GCS directory.
+Once the enrichment process is over, the DAG will check for the existence of the files in the GCS directory where *enriched* datasets is.
 Once verified, it will dynamically spun `upload_to_bigquery_*` tasks to transfer the data into Google Bigquery, depending on the number of files in the GCS directory.
 
 ![DAG 3](images/bigquery_result.png)
