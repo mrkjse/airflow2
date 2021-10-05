@@ -1,6 +1,4 @@
 
-"""Example DAG demonstrating the usage of the BashOperator."""
-
 from datetime import timedelta
 from datetime import datetime
 from pprint import pprint
@@ -115,12 +113,16 @@ def partition_this_csv(ti, **kwargs):
     partition_size = Variable.set("monthly_dag_partition_size", partition_size)
 
 def branch(**kwargs):
+    """ Performs a check to see if the task should continue or end in error. """
     partition_size = Variable.get('monthly_dag_partition_size')
     print('Partition size: {}'.format(partition_size))
 
+    # Some validation logic should be here...
     partition_size = int(partition_size)
     print(partition_size)
 
+    # If Validation passes, proceed with the job
+    # else, notify user of the issues.
     if partition_size > 5:
         return 'partition_files'
     else:
@@ -130,6 +132,8 @@ def spun_group():
     """
     
     This function will upload the partitions into Google Cloud Storage.
+
+    This will spun individual tasks to upload the file into GCS, depending on the number of partitions.
 
     """
     partition_size = Variable.get('monthly_dag_partition_size')
@@ -174,7 +178,7 @@ args = {
 with DAG(
     dag_id='monthly_upload_transactions_for_enrichment',
     default_args=args,
-    schedule_interval='30 0 1 * *',
+    schedule_interval='30 0 1 * *', # Every 12:30 AM on the first of the month
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],

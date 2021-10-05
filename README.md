@@ -56,6 +56,8 @@ This DAG is for transactions that do not require merchant details. The transacti
 
 In this example, the DAG attempts to do some data and metada checks before performing the actual job of uploading the file into the cloud. Then, it will pass into a conditional task. If the checks pass, it will upload the data into the cloud datawarehouse. If not, it will send a notification email, summarising the issues and data errors encountered. 
 
+![DAG 1](images/daily_gcs.png)
+
 The source data is in the repo: `dags/data/bank_transactions_daily.csv`, and the final transaction is saved into `transactions_data.transactions` Bigquery table. 
 <br/>
 
@@ -92,6 +94,7 @@ This DAG uploads the enriched dataset from **Google Cloud Storage** into the **G
 
 We assume the *enrichment process* will get the data from GCS, add merchant details, and upload it back into GCS.
 Therefore, we consider the data *enriched* after end of the month, whatever the state of the data is.
+
 
 Once the enrichment process is over, the DAG will check for the existence of the files in the GCS directory where *enriched* datasets is.
 Once verified, it will dynamically spun `upload_to_bigquery_*` tasks to transfer the data into Google Bigquery, depending on the number of files in the GCS directory.

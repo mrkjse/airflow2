@@ -1,6 +1,3 @@
-
-"""Example DAG demonstrating the usage of the BashOperator."""
-
 from datetime import timedelta, datetime
 from pprint import pprint
 import enum
@@ -111,7 +108,7 @@ args = {
 with DAG(
     dag_id='daily_upload_datawarehouse_transactions',
     default_args=args,
-    schedule_interval='30 4 * * *',
+    schedule_interval='30 4 * * *', # Every 4:30 AM
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],

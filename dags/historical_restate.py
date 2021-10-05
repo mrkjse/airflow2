@@ -1,6 +1,3 @@
-
-"""Example DAG demonstrating the usage of the BashOperator."""
-
 from datetime import timedelta
 from pprint import pprint
 import enum
@@ -44,6 +41,15 @@ def branch(**kwargs):
         return 'notify_data_integrity_issue'
 
 def spun_group(**kwargs):
+
+    """
+    
+    This function will upload the partitions into Google Bigquery Table.
+
+    This will spun individual tasks to upload the file into Bigquery, depending on the number of partitions.
+
+    """
+
     file_names = Variable.get('monthly_dag_gcs_filenames', deserialize_json=True)
 
 
@@ -74,6 +80,7 @@ def spun_group(**kwargs):
             task_list.append(task_1)
             index = index + 1
 
+        # Ensure we don't spun too much tasks
         if index > 12:
             break
     
@@ -97,7 +104,7 @@ args = {
 with DAG(
     dag_id='monthly_upload_datawarehouse_transactions',
     default_args=args,
-    schedule_interval='30 1 L * *',
+    schedule_interval='30 1 L * *', # Every 1:30 AM on the last day of the month
     start_date=days_ago(1),
     dagrun_timeout=timedelta(minutes=5),
     tags=['ANZ', 'Mark'],
