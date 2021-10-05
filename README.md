@@ -128,11 +128,11 @@ Due to time and resource constraints, there were some shortcuts implemented in t
 
 **Tools and Storage Choices**
 
-I used **Apache Airflow** to setup the ETL pipelines. **Airflow** is a data-orchestration tool created by Airbnb to manage and schedule data workflows. Airflow is a job scheduler that runs a collection of tasks with defined dependencies. Workflows (or jobs) are written as code of Directed Acyclic Graph (DAG), which are executed from left to right. It is also developed in Python, so third-party support is plenty and is easily extensible. 
+I used **Apache Airflow** to setup the ETL pipelines. **Airflow** is a job scheduler that runs a collection of tasks with defined dependencies. Workflows (or jobs) are written as code of Directed Acyclic Graph (DAG), which are executed from left to right. It is also developed in Python, so third-party support is plenty and is easily extensible. 
 
 I used **Google Cloud Storage** as a staging repository for the files because it can store any kind of data durably and securely. It also allows us to access the files via API and integrate it not only with other GCP services (like **Dataproc** and **Bigquery**) but also third-party ETL tools like **Apache Airflow**.
 
-I used **Bigquery** as the cloud datawarehouse. Bigquery is tailored for analysing big data, where we need to perform a lot of ad-hoc reads to the dataset. It's fast and is easy to integrate with a lot of data engineering tools because of its extensive REST API. In some cases, it allows you to run complex analytical SQL-based queries under large sets of data up to 50x faster than traditional databases hosted on-prem.
+I used **Bigquery** as the cloud data warehouse. Bigquery is tailored for analysing big data, where we need to perform a lot of ad-hoc reads to the dataset. It's fast and is easy to integrate with a lot of data engineering tools because of its extensive REST API. In some cases, it allows you to run complex analytical SQL-based queries under large sets of data up to 50x faster than traditional databases hosted on-prem.
 
 **Daily Problems/Issues**
 
