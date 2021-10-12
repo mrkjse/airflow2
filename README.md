@@ -1,4 +1,4 @@
-# ETL Exercise for ANZ
+# ETL Exercise
 
 Created by: **Mark Jose**
 
